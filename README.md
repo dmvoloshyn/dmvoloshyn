@@ -97,5 +97,11 @@ Specializing in the development of software-driven engineering systems that inte
 
 This repository represents a structured overview of selected engineering solutions and architectural principles behind the development of applied engineering software systems.
 
-[Engineering Computation System Architecture](docs/system-architecture.md)
 
+## Engineering Documentation
+
+The following documents describe the engineering approach, system architecture, and technical decision principles behind developed solutions.
+
+- [System Architecture](docs/System-Architecture.md)
+- [Solution Approach](docs/Solution-Approach.md)
+- [Technical Decisions](docs/Technical-Decisions.md)
