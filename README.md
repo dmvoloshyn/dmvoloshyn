@@ -96,3 +96,6 @@ Specializing in the development of software-driven engineering systems that inte
 ## Note
 
 This repository represents a structured overview of selected engineering solutions and architectural principles behind the development of applied engineering software systems.
+
+[Engineering Computation System Architecture](docs/system-architecture.md)
+
