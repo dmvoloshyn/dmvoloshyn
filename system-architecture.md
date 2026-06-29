@@ -22,3 +22,5 @@ In technical implementation terms, such systems typically consist of:
 - Presentation and interaction layer
 
 This architecture allows engineering software to evolve from static calculation tools into scalable, maintainable systems capable of supporting complex and variable real-world conditions.
+
+<img width="1536" height="1024" alt="StructureDiagram2" src="https://github.com/user-attachments/assets/dc7cf243-0f02-4e45-9673-48761322b162" />
