@@ -118,9 +118,7 @@ Specializing in the development of software-driven engineering systems that inte
 
 ---
 
-## Engineering Patterns
-
-### Core String & DSL Patterns
+## 05_engineering_patterns
 
 - [Mask-Unmask Token Replacement Pattern](./05_engineering_patterns/Mask-Unmask-Token-Replacement-Pattern.md)
 
