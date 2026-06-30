@@ -61,3 +61,4 @@ Documents reusable technical solutions and design patterns identified during dev
 
 ## Architecture Flow
 
+<img width="1408" height="768" alt="Diagram2" src="https://github.com/user-attachments/assets/f35c0e12-d217-4eb5-8536-ab8f8917aa5a" />
