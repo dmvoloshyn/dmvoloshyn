@@ -14,9 +14,9 @@ This layer represents the transition from system architecture to real-world appl
 
 ## System Architecture
 
-[System Overview](./00_system/README.md)
+[System Overview](./00_system/System-Overview.md)
 
-[Engineering Patterns](./05_engineering_patterns/README.md)
+[Engineering Patterns](./05_engineering_patterns/)
 
 [DmV Software Architecture Mapping](./06_dmv_software_architecture_mapping.md)
 
@@ -44,7 +44,7 @@ The system provides structured calculation methods for concrete-related projects
 
 ### User Documentation
 
-[Concrete Works Cost Estimator Pro Manual](./08_manual_concrete_works_cost_estimator_pro.pdf)
+[Concrete Works Cost Estimator Pro Manual](./08_manual_concrete_works_cost_estimator_pro_en.pdf)
 
 ---
 
@@ -69,21 +69,6 @@ The application demonstrates custom parsing logic and reusable computational pat
 ### User Documentation
 
 [DmV Calculator PRO Manual](./09_manual_dmv_calculator_pro.pdf)
-
----
-
-# Documentation
-
-The repository includes operational documentation for each product:
-
-- User manuals
-- Functional descriptions
-- Workflow explanations
-
-Available:
-
-- [Concrete Works Cost Estimator Pro Manual](./08_manual_concrete_works_cost_estimator_pro.pdf)
-- [DmV Calculator PRO Manual](./09_manual_dmv_calculator_pro.pdf)
 
 ---
 
