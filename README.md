@@ -87,56 +87,56 @@ Specializing in the development of software-driven engineering systems that inte
 
 # LINKS — Integrated Engineering Portfolio Navigation
 
-## 00_SYSTEM
+## 00_system
 
 - System Overview  
-  ./00_SYSTEM/System-Overview.md
+  ./00_system/System-Overview.md
 
 ---
 
-## 01_DOCS
+## 01_docs
 
 - System Architecture  
-  ./01_DOCS/System-Architecture.md
+  ./01_docs/System-Architecture.md
 
 - Solution Approach  
-  ./01_DOCS/Solution-Approach.md
+  ./01_docs/Solution-Approach.md
 
 - Technical Decisions  
-  ./01_DOCS/Technical-Decisions.md
+  ./01_docs/Technical-Decisions.md
 
 ---
 
-## 02_PROJECTS
+## 02_projects
 
 - Concrete Works Cost Estimator Pro  
-  ./02_PROJECTS/Concrete-Works-Cost-Estimator-Pro.md
+  ./02_progectd/Concrete-Works-Cost-Estimator-Pro.md
 
 - DMV Calculator Pro  
-  ./02_PROJECTS/DMV-Calculator-Pro.md
+  ./02_projects/DMV-Calculator-Pro.md
 
 - Embedded Systems Engineering  
-  ./02_PROJECTS/Embedded-Systems-Engineering.md
+  ./02_projects/Embedded-Systems-Engineering.md
 
 ---
 
-## 03_EXAMPLES
+## 03_examples
 
 - Concrete Estimation Workflow  
-  ./03_EXAMPLES/Concrete-Estimation-Workflow.md
+  ./03_examples/Concrete-Estimation-Workflow.md
 
 - Embedded Control Scenario  
-  ./03_EXAMPLES/Embedded-Control-Scenario.md
+  ./03_examples/Embedded-Control-Scenario.md
 
 - Integrated System Behavior  
-  ./03_EXAMPLES/Integrated-System-Behavior.md
+  ./03_examples/Integrated-System-Behavior.md
 
 ---
 
-## 04_THEORY
+## 04_theory
 
 - Software Engineering Principles  
-  ./04_THEORY/Software-Engineering-Principles.md
+  ./04_theory/Software-Engineering-Principles.md
 
 ---
 
