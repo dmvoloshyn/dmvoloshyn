@@ -1,4 +1,4 @@
-⁷# Dmytro Voloshyn
+# Dmytro Voloshyn
 
 ## Integrated Systems & Solutions Architect
 
