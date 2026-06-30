@@ -136,10 +136,9 @@ Specializing in the development of software-driven engineering systems that inte
 
 ---
 
-
 ## 07_dmv_software_products
 
-- [DmV Software Projects](./07_dmv_software_projects.md)
+- [DmV Software Products](./07_dmv_software_products.md)
 
 ---
 
