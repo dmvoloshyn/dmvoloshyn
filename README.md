@@ -88,55 +88,33 @@ Specializing in the development of software-driven engineering systems that inte
 # LINKS — Integrated Engineering Portfolio Navigation
 
 ## 00_system
-
-- System Overview  
-  ./00_system/System-Overview.md
+- [System Overview](./00_system/System-Overview.md)
 
 ---
 
 ## 01_docs
-
-- System Architecture  
-  ./01_docs/System-Architecture.md
-
-- Solution Approach  
-  ./01_docs/Solution-Approach.md
-
-- Technical Decisions  
-  ./01_docs/Technical-Decisions.md
+- [System Architecture](./01_docs/System-Architecture.md)
+- [Solution Approach](./01_docs/Solution-Approach.md)
+- [Technical Decisions](./01_docs/Technical-Decisions.md)
 
 ---
 
 ## 02_projects
-
-- Concrete Works Cost Estimator Pro  
-  ./02_progectd/Concrete-Works-Cost-Estimator-Pro.md
-
-- DMV Calculator Pro  
-  ./02_projects/DMV-Calculator-Pro.md
-
-- Embedded Systems Engineering  
-  ./02_projects/Embedded-Systems-Engineering.md
+- [Concrete Works Cost Estimator Pro](./02_projects/Concrete-Works-Cost-Estimator-Pro.md)
+- [DmV Calculator Pro](./02_projects/DmV-Calculator-Pro.md)
+- [Embedded Systems Engineering](./02_projects/Embedded-Systems-Engineering.md)
 
 ---
 
 ## 03_examples
-
-- Concrete Estimation Workflow  
-  ./03_examples/Concrete-Estimation-Workflow.md
-
-- Embedded Control Scenario  
-  ./03_examples/Embedded-Control-Scenario.md
-
-- Integrated System Behavior  
-  ./03_examples/Integrated-System-Behavior.md
+- [Concrete Estimation Workflow](./03_examples/Concrete-Estimation-Workflow.md)
+- [Embedded Control Scenario](./03_examples/Embedded-Control-Scenario.md)
+- [Integrated System Behavior](./03_examples/Integrated-System-Behavior.md)
 
 ---
 
 ## 04_theory
-
-- Software Engineering Principles  
-  (04_theory/Software-Engineering-Principles.md)
+- [Software Engineering Principles](./04_theory/Software-Engineering-Principles.md)
 
 ---
 
