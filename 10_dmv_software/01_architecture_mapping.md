@@ -179,9 +179,7 @@ Commercial Distribution
 
 # Architecture Diagram
 
-The architecture diagram is provided as a separate visual file:
-
-`architecture_mapping.png`
+<img width="1080" height="1527" alt="Diagram3_1" src="https://github.com/user-attachments/assets/5b3a4c21-63b5-4577-a0b6-7988cba44bb5" />
 
 This diagram represents the relationship between:
 
