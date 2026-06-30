@@ -131,7 +131,6 @@ Specializing in the development of software-driven engineering systems that inte
 - Concrete Works Cost Estimator Pro
 - DMV Calculator Pro
 - Technical Documentation Packages
-- Engineering Calculation Systems
 
 ---
 
