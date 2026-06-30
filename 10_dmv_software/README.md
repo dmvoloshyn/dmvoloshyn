@@ -71,7 +71,7 @@ Related layer:
 
 The connection between internal patterns and implemented products is described here:
 
-[Architecture Mapping](./architecture_mapping.md)
+[Architecture Mapping](./01_architecture_mapping.md)
 
 ---
 
