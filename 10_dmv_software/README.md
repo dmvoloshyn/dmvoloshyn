@@ -17,7 +17,7 @@ The products are developed around a combination of:
 
 # Products
 
-## Concrete Cost Estimator Pro
+## Concrete Works Cost Estimator Pro
 
 A specialized engineering calculation system designed for concrete construction cost estimation.
 
@@ -30,7 +30,7 @@ The application provides:
 
 Product page:
 
-[Concrete Cost Estimator Pro](./products/concrete_cost_estimator_pro/README.md)
+[Concrete Works Cost Estimator Pro](./products/concrete_cost_estimator_pro/README.md)
 
 ---
 
@@ -55,7 +55,7 @@ Product page:
 
 User documentation and operating instructions:
 
-- [Concrete Cost Estimator Pro Manual](./documentation/estimator_manual.md)
+- [Concrete Works Cost Estimator Pro Manual](./documentation/estimator_manual.md)
 
 - [DmV Calculator PRO Manual](./documentation/calculator_manual.md)
 
@@ -67,11 +67,11 @@ DmV Software products are built on reusable engineering patterns described in th
 
 Related layer:
 
-[Engineering Patterns](../05_engineering_patterns/)
+[Engineering Patterns](./05_engineering_patterns/)
 
 The connection between internal patterns and implemented products is described here:
 
-[Architecture Mapping](architecture_mapping.md)
+[Architecture Mapping](./architecture_mapping.md)
 
 ---
 
