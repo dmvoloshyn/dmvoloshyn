@@ -59,33 +59,16 @@ Documents reusable technical solutions and design patterns identified during dev
 
 ---
 
-## Architecture Flow
+## Architecture 
 
-```text
-┌──────────────────────────────────────────────────────────────┐
-│                    ENGINEERING PROBLEM                       │
-└──────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌──────────────────────────────────────────────────────────────┐
-│                        SYSTEM MODEL                          │
-│         (logic, constraints, structure, parameters)          │
-└──────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌──────────────────────────────────────────────────────────────┐
-│                    IMPLEMENTATION LAYER                      │
-│     software systems / embedded systems / calculators        │
-└──────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌──────────────────────────────────────────────────────────────┐
-│                    ENGINEERING PATTERNS                      │
-│        reusable logic, design patterns, optimizations        │
-└──────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌──────────────────────────────────────────────────────────────┐
-│                    OPERATIONAL BEHAVIOR                      │
-│           real-world execution and system response           │
-└──────────────────────────────────────────────────────────────┘
+graph TD
+    A[ENGINEERING PROBLEM] --> B[SYSTEM MODEL]
+    B --> C[IMPLEMENTATION LAYER]
+    C --> D[ENGINEERING PATTERNS]
+    D --> E[OPERATIONAL BEHAVIOR]
+
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style B fill:#e1f5fe,stroke:#0277bd,stroke-width:2px
+    style C fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+    style D fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    style E fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
