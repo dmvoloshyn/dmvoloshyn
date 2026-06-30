@@ -28,7 +28,7 @@ This model applies consistently across all domains:
 ---
 
 ## Repository Structure
-The system is organized into four integrated layers:
+The system is organized into five integrated layers:
 
 ### 1. System Thinking Layer (`/docs`)
 Defines engineering logic, architecture principles, and decision structures.
@@ -51,6 +51,12 @@ Defines universal principles of software and engineering systems.
 * Software Engineering Principles
 * Unified Engineering Architecture
 
+### 5. Engineering Patterns Layer (`/engineering_patterns`)
+Documents reusable technical solutions and design patterns identified during development.
+* String Substitution Patterns
+* Reactive Listener Chains
+* Perception-Driven UI Patterns
+
 ---
 
 ## Architecture Flow
@@ -70,6 +76,12 @@ Defines universal principles of software and engineering systems.
 ┌──────────────────────────────────────────────────────────────┐
 │                    IMPLEMENTATION LAYER                      │
 │     software systems / embedded systems / calculators        │
+└──────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌──────────────────────────────────────────────────────────────┐
+│                    ENGINEERING PATTERNS                      │
+│        reusable logic, design patterns, optimizations        │
 └──────────────────────────────────────────────────────────────┘
                               │
                               ▼
