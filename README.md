@@ -122,13 +122,13 @@ Specializing in the development of software-driven engineering systems that inte
 
 ### Core String & DSL Patterns
 
-- [Mask-Unmask Token Replacement Pattern](./05_engineering_patterns/mask-unmask-token-replacement-pattern.md)
+- [Mask-Unmask Token Replacement Pattern](./05_engineering_patterns/Mask-Unmask-Token-Replacement-Pattern.md)
 
-- [Unicode Arrow Conversion DSL Pattern](./05_engineering_patterns/unicode-arrow-conversion-dsl-pattern.md)
+- [Unicode Arrow Conversion DSL Pattern](./05_engineering_patterns/Unicode-Arrow-Conversion-DSL-Pattern.md)
 
-- [Self-Triggering Listener Chain Pattern (JavaFX Reactive UI)](./05_engineering_patterns/self-triggering-listener-chain-pattern.md)
+- [Self-Triggering Listener Chain Pattern (JavaFX Reactive UI)](./05_engineering_patterns/Self-Triggering-Listener-Chain-Pattern.md)
 
-- [TextArea Navigation as Structured Data Pattern](./05_engineering_patterns/textarea-navigation-as-structured-data-pattern.md)
+- [TextArea Navigation as Structured Data Pattern](./05_engineering_patterns/TextArea-Navigation-as-Structured-Data-Pattern.md)
 
 ---
 
