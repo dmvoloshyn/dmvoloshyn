@@ -61,32 +61,3 @@ Documents reusable technical solutions and design patterns identified during dev
 
 ## Architecture Flow
 
-+--------------------------------------------------+
-|               ENGINEERING PROBLEM                |
-+--------------------------------------------------+
-                         |
-                         v
-+--------------------------------------------------+
-|                   SYSTEM MODEL                   |
-|   (logic, constraints, structure, parameters)    |
-+--------------------------------------------------+
-                         |
-                         v
-+--------------------------------------------------+
-|               IMPLEMENTATION LAYER               |
-|      software / embedded systems / tools         |
-+--------------------------------------------------+
-                         |
-                         v
-+--------------------------------------------------+
-|               ENGINEERING PATTERNS               |
-|    reusable logic, design patterns, techniques   |
-+--------------------------------------------------+
-                         |
-                         v
-+--------------------------------------------------+
-|               OPERATIONAL BEHAVIOR               |
-|      real-world execution and system response    |
-+--------------------------------------------------+
-  fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
-    style E fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
