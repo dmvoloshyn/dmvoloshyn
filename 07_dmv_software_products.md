@@ -1,17 +1,24 @@
-# DmV Software
+# DmV Software Products
 
-## Commercial Engineering Software Layer
+## Overview
 
-DmV Software represents the product layer of the integrated engineering system.
+DmV Software is a collection of engineering-driven computational applications built on a unified architecture model.
 
-This layer transforms internal engineering patterns and computational solutions into practical software tools designed for real-world usage.
+Each product represents an implementation of reusable engineering principles, computational methods, and practical software solutions.
 
-The products are developed around a combination of:
+This layer represents the transition from system architecture to real-world applications and commercial distribution.
 
-- engineering problem solving
-- computational logic
-- domain-specific calculation models
-- optimized user interaction
+---
+
+# Navigation
+
+## System Architecture
+
+[System Overview](./00_system/README.md)
+
+[Engineering Patterns](./05_engineering_patterns/README.md)
+
+[DmV Software Architecture Mapping](./06_dmv_software_architecture_mapping.md)
 
 ---
 
@@ -19,75 +26,97 @@ The products are developed around a combination of:
 
 ## Concrete Works Cost Estimator Pro
 
-A specialized engineering calculation system designed for concrete construction cost estimation.
+A specialized engineering application designed for construction cost estimation workflows.
 
-The application provides:
+The system provides structured calculation methods for concrete-related projects, helping transform manual estimation processes into organized computational workflows.
 
-- structured estimation workflows
-- engineering-oriented calculations
-- parameter-based cost evaluation
-- practical tools for construction professionals
+### Product Features
 
-Product page:
+- Concrete estimation workflow
+- Engineering-based calculation logic
+- Structured input parameters
+- Cost calculation support
+- Practical construction estimation process
 
-[Concrete Works Cost Estimator Pro](./products/concrete_cost_estimator_pro/README.md)
+### Commercial Distribution
+
+[Concrete Works Cost Estimator Pro - Gumroad](https://dmvtools.gumroad.com/l/ConcreteWorksCostEstimatorPro)
+
+### User Documentation
+
+[Concrete Works Cost Estimator Pro Manual](./08_manual_concrete_works_cost_estimator_pro.pdf)
 
 ---
 
-## DmV Calculator PRO
+# DmV Calculator PRO
 
-A general-purpose engineering calculator system based on expression-driven computation.
+A computational calculator system focused on advanced expression processing, engineering calculations, and unit-based operations.
 
-The application provides:
+The application demonstrates custom parsing logic and reusable computational patterns.
 
-- mathematical and engineering calculations
-- unit conversion workflows
-- interactive calculation environment
-- reusable computational logic
+### Product Features
 
-Product page:
+- Expression parsing engine
+- Engineering calculations
+- Unit conversion logic
+- Mathematical function processing
+- Structured computational workflow
 
-[DmV Calculator PRO](./products/dmv_calculator_pro/README.md)
+### Commercial Distribution
+
+[DmV Calculator PRO - Gumroad](https://dmvtools.gumroad.com/l/DmVCalculatorPRO)
+
+### User Documentation
+
+[DmV Calculator PRO Manual](./09_manual_dmv_calculator_pro.pdf)
 
 ---
 
 # Documentation
 
-User documentation and operating instructions:
+The repository includes operational documentation for each product:
 
-- [Concrete Works Cost Estimator Pro Manual](./documentation/estimator_manual.md)
+- User manuals
+- Functional descriptions
+- Workflow explanations
 
-- [DmV Calculator PRO Manual](./documentation/calculator_manual.md)
+Available:
 
----
-
-# Engineering Foundation
-
-DmV Software products are built on reusable engineering patterns described in the main system architecture.
-
-Related layer:
-
-[Engineering Patterns](./05_engineering_patterns/)
-
-The connection between internal patterns and implemented products is described here:
-
-[Architecture Mapping](./01_architecture_mapping.md)
+- [Concrete Works Cost Estimator Pro Manual](./08_manual_concrete_works_cost_estimator_pro.pdf)
+- [DmV Calculator PRO Manual](./09_manual_dmv_calculator_pro.pdf)
 
 ---
 
-# Commercial Distribution
+# Architecture Relationship
 
-The software products are distributed through external commercial platforms.
+DmV Software Products are connected with the previous architecture layers:
 
-Sales and product access:
-
-- Gumroad product pages
-- digital software delivery
-- user documentation packages
+System Overview  
+→ Engineering Patterns  
+→ DmV Software Architecture Mapping  
+→ DmV Software Products  
+→ User Documentation  
+→ Commercial Distribution
 
 ---
 
-# System Position
+# Commercial Model
 
+Products are distributed through Gumroad digital delivery platforms.
 
-DmV Software represents the transition from engineering concepts into usable software products.
+The GitHub repository provides:
+
+- Technical background
+- Architecture overview
+- Documentation access
+- Engineering portfolio demonstration
+
+Commercial access and product delivery are provided through official product pages.
+
+---
+
+# Summary
+
+DmV Software Products represent the applied software layer of the DmV Software ecosystem.
+
+The products combine engineering logic, computational methods, and practical user-oriented applications into independent software solutions.
