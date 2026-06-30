@@ -179,7 +179,7 @@ Commercial Distribution
 
 # Architecture Diagram
 
-<img width="1080" height="1527" alt="Diagram3_1" src="https://github.com/user-attachments/assets/5b3a4c21-63b5-4577-a0b6-7988cba44bb5" />
+<img width="2502" height="1684" alt="Diagram3_1" src="https://github.com/user-attachments/assets/d13572b5-dbb2-443f-a1bb-23ce47ed6027" />
 
 This diagram represents the relationship between:
 
