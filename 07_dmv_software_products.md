@@ -68,7 +68,7 @@ The application demonstrates custom parsing logic and reusable computational pat
 
 ### User Documentation
 
-[DmV Calculator PRO Manual](./09_manual_dmv_calculator_pro.pdf)
+[DmV Calculator PRO Manual](https://dmvtools.gumroad.com/l/DmVCalculatorPROManual)
 
 ---
 
