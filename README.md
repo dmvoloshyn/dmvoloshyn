@@ -1,4 +1,4 @@
-# Dmytro Voloshyn
+⁷# Dmytro Voloshyn
 
 ## Integrated Systems & Solutions Architect
 
@@ -136,7 +136,7 @@ Specializing in the development of software-driven engineering systems that inte
 ## 04_theory
 
 - Software Engineering Principles  
-  ./04_theory/Software-Engineering-Principles.md
+  (04_theory/Software-Engineering-Principles.md)
 
 ---
 
