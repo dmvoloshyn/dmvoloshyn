@@ -85,7 +85,62 @@ Specializing in the development of software-driven engineering systems that inte
 
 ---
 
-## Links
+# LINKS — Integrated Engineering Portfolio Navigation
+
+## 00_SYSTEM
+
+- System Overview  
+  ./00_SYSTEM/System-Overview.md
+
+---
+
+## 01_DOCS
+
+- System Architecture  
+  ./01_DOCS/System-Architecture.md
+
+- Solution Approach  
+  ./01_DOCS/Solution-Approach.md
+
+- Technical Decisions  
+  ./01_DOCS/Technical-Decisions.md
+
+---
+
+## 02_PROJECTS
+
+- Concrete Works Cost Estimator Pro  
+  ./02_PROJECTS/Concrete-Works-Cost-Estimator-Pro.md
+
+- DMV Calculator Pro  
+  ./02_PROJECTS/DMV-Calculator-Pro.md
+
+- Embedded Systems Engineering  
+  ./02_PROJECTS/Embedded-Systems-Engineering.md
+
+---
+
+## 03_EXAMPLES
+
+- Concrete Estimation Workflow  
+  ./03_EXAMPLES/Concrete-Estimation-Workflow.md
+
+- Embedded Control Scenario  
+  ./03_EXAMPLES/Embedded-Control-Scenario.md
+
+- Integrated System Behavior  
+  ./03_EXAMPLES/Integrated-System-Behavior.md
+
+---
+
+## 04_THEORY
+
+- Software Engineering Principles  
+  ./04_THEORY/Software-Engineering-Principles.md
+
+---
+
+## EXTERNAL LINKS
 
 - LinkedIn: https://www.linkedin.com/in/dmytro-voloshyn-73b761408  
 - F6S: https://www.f6s.com/dmytro-voloshyn  
@@ -93,15 +148,17 @@ Specializing in the development of software-driven engineering systems that inte
 
 ---
 
-## Note
+## PRODUCTS
 
-This repository represents a structured overview of selected engineering solutions and architectural principles behind the development of applied engineering software systems.
+- Concrete Works Cost Estimator Pro
+- DMV Calculator Pro
+- Technical Documentation Packages
+- Engineering Calculation Systems
 
+---
 
-## Engineering Documentation
+## SYSTEM NAVIGATION PRINCIPLE
 
-The following documents describe the engineering approach, system architecture, and technical decision principles behind developed solutions.
+Input → System Model → Implementation → Execution → Output
 
-- [System Architecture](docs/System-Architecture.md)
-- [Solution Approach](docs/Solution-Approach.md)
-- [Technical Decisions](docs/Technical-Decisions.md)
+Each layer represents a different abstraction level of the same engineering architecture.
