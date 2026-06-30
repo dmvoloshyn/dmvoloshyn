@@ -130,6 +130,12 @@ Specializing in the development of software-driven engineering systems that inte
 
 ---
 
+##  06_dmv_software_architecture_mapping
+
+- [DmV Software Architecture Mapping](./06_dmv_software_architecture_mapping.md)
+
+---
+
 ## EXTERNAL LINKS
 
 - LinkedIn: https://www.linkedin.com/in/dmytro-voloshyn-73b761408  
