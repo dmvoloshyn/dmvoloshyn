@@ -44,7 +44,7 @@ The system provides structured calculation methods for concrete-related projects
 
 ### User Documentation
 
-[Concrete Works Cost Estimator Pro Manual](./08_manual_concrete_works_cost_estimator_pro_en.pdf)
+[Concrete Works Cost Estimator Pro Manual](https://github.com/dmvoloshyn/dmvoloshyn/blob/main/08_manual_concrete_works_estimator_pro_en.pdf)
 
 ---
 
