@@ -6,13 +6,15 @@
 
 Most expression evaluators use a compiler-style architecture:
 
-`Input → Lexer → Tokens → Parser → AST → Evaluation`
+Input → Lexer → Tokens → Parser → AST → Evaluation
 
 This pattern introduces another approach: **String Rewriting Expression
 Evaluation**.
 
 Instead of building an Abstract Syntax Tree, the engine repeatedly
-transforms the original expression string:
+transforms the original expression string.
+
+The algorithm:
 
 1.  Find the next executable operation.
 2.  Calculate the result.
@@ -21,19 +23,16 @@ transforms the original expression string:
 
 Example:
 
-``` text
-2 + 3 * 4
+The expression 2 + 3 \* 4 is transformed step by step:
 
-2 + 12
+2 + 3 \* 4 → 2 + 12 → 14
 
-14
-```
-
-The expression string becomes the execution state.
+The expression string itself becomes the execution state.
 
 This is not a universal replacement for parsers. It is an optimized
-architecture for compact domain-specific languages where simplicity and
-transparency are more important than unlimited grammar complexity.
+architecture for compact domain-specific languages where simplicity,
+transparency, and implementation efficiency are more important than
+unlimited grammar complexity.
 
 ------------------------------------------------------------------------
 
@@ -41,31 +40,11 @@ transparency are more important than unlimited grammar complexity.
 
 Traditional architecture:
 
-``` text
-Input
-↓
-Lexer
-↓
-Parser
-↓
-AST
-↓
-Evaluation
-```
+Input → Lexer → Parser → AST → Evaluation
 
 String rewriting architecture:
 
-``` text
-Expression
-↓
-Find operation
-↓
-Evaluate
-↓
-Replace
-↓
-Repeat
-```
+Expression → Find operation → Evaluate → Replace → Repeat
 
 The system operates directly on the user's expression instead of
 creating another representation.
@@ -78,11 +57,11 @@ This approach is closer to a term rewriting system.
 
 Instead of:
 
-> Build a model of the expression and execute the model
+"Build a model of the expression and execute the model"
 
 the architecture becomes:
 
-> Transform the expression until the expression becomes the answer
+"Transform the expression until the expression becomes the answer"
 
 ------------------------------------------------------------------------
 
@@ -97,7 +76,7 @@ Similar ideas exist in:
 -   rule engines
 -   macro systems
 
-The engineering originality is the practical combination:
+The engineering originality is the practical combination of:
 
 -   user-facing formulas
 -   arithmetic precedence
@@ -106,7 +85,7 @@ The engineering originality is the practical combination:
 -   no AST layer
 -   minimal implementation
 
-The expression text acts as:
+The expression text acts simultaneously as:
 
 -   input format
 -   intermediate representation
@@ -120,9 +99,7 @@ The expression text acts as:
 
 Architecture:
 
-``` text
 Input → Lexer → Parser → AST → Evaluator
-```
 
 Advantages:
 
@@ -138,15 +115,16 @@ Disadvantages:
 -   more abstraction
 -   higher implementation complexity
 
+AST is the correct architecture for large languages and complex
+interpreters.
+
 ------------------------------------------------------------------------
 
-## Shunting Yard
+## Shunting Yard Algorithm
 
 Architecture:
 
-``` text
 Infix expression → Postfix notation → Stack evaluation
-```
 
 Advantages:
 
@@ -160,22 +138,27 @@ Disadvantages:
 -   requires stacks
 -   requires additional parser logic
 
+Shunting Yard is excellent for formal mathematical expression
+processing.
+
 ------------------------------------------------------------------------
 
 ## Regex-Based Calculation
 
 Advantages:
 
--   very simple
+-   very simple implementation
 
 Disadvantages:
 
-Breaks down with:
+It becomes difficult to maintain with:
 
 -   nested expressions
 -   functions
 -   unary operators
--   complex precedence
+-   complex precedence rules
+
+Regex alone is usually not a complete expression architecture.
 
 ------------------------------------------------------------------------
 
@@ -183,28 +166,19 @@ Breaks down with:
 
 Architecture:
 
-``` text
-Expression
-↓
-Locate operation
-↓
-Calculate
-↓
-Replace
-↓
-Continue
-```
+Expression → Locate operation → Calculate → Replace → Continue
 
 Advantages:
 
 -   minimal architecture
--   low implementation cost
--   transparent debugging
+-   smaller codebase
+-   transparent execution
+-   easy debugging
 -   natural integration with custom DSL syntax
 
 ------------------------------------------------------------------------
 
-# 5. Where It Is Optimal
+# 5. Where This Pattern Is Optimal
 
 This pattern is optimal for:
 
@@ -218,20 +192,22 @@ It works best when:
 
 -   grammar is controlled
 -   syntax is limited
--   readability matters
+-   readability is important
+-   users interact directly with expressions
 
 ------------------------------------------------------------------------
 
-# 6. Where It Is Not Optimal
+# 6. Where This Pattern Is Not Optimal
 
-Not recommended for:
+This approach is not recommended for:
 
 -   programming languages
 -   large interpreters
 -   symbolic mathematics systems
 -   high-performance calculation engines
 
-AST or compiled representations are better in those cases.
+In those cases, ASTs, bytecode, or compiled representations are more
+appropriate.
 
 ------------------------------------------------------------------------
 
@@ -239,138 +215,101 @@ AST or compiled representations are better in those cases.
 
 Traditional architecture:
 
-``` text
-Input
-↓
-Representation
-↓
-Execution
-```
+Input → Representation → Execution
 
-String rewriting:
+String rewriting architecture:
 
-``` text
-Input
-↓
-Transformation
-↓
-Result
-```
+Input → Transformation → Result
 
-The main architectural advantage is removing unnecessary layers.
+The main architectural advantage is removing layers that do not provide
+value for the specific problem domain.
+
+The expression remains the central object throughout the entire
+execution process.
 
 ------------------------------------------------------------------------
 
 # 8. Practical Code Implementation
 
-The implementation usually contains:
+The implementation usually contains several stages.
 
 ## Operator Detection
 
-Find:
+The engine searches for supported operations such as:
 
-``` text
-*
-/
-+
--
-```
+-   multiplication
+-   division
+-   addition
+-   subtraction
+-   mathematical functions
 
 ## Operand Extraction
 
-Example:
+A fragment such as 12\*5 is separated into:
 
-``` text
-12*5
-```
-
-becomes:
-
-``` text
-12
-*
-5
-```
+12 → operator → 5
 
 ## Calculation
 
-``` text
-12*5
-```
+The operation is evaluated:
 
-becomes:
-
-``` text
-60
-```
+12\*5 becomes 60
 
 ## Replacement
 
-``` text
-12*5+3
-```
+The original fragment:
+
+12\*5+3
 
 becomes:
 
-``` text
 60+3
-```
 
-The process repeats.
+The cycle continues until the expression is fully reduced.
 
 ------------------------------------------------------------------------
 
 # 9. Optimization Characteristics
 
-## Memory
+## Memory Efficiency
 
-AST:
+AST approach:
 
-``` text
-Expression
-↓
-Many objects
-↓
-Tree
-```
+Expression → many objects → tree structure
 
-String rewriting:
+String rewriting approach:
 
-``` text
-Expression
-↓
-Single mutable string
-```
+Expression → single mutable representation
+
+The memory model is simpler.
 
 ------------------------------------------------------------------------
 
-## Development
+## Development Complexity
 
 AST:
 
--   higher initial cost
+-   higher initial development cost
 -   more infrastructure
+-   more abstraction layers
 
 String rewriting:
 
--   smaller codebase
--   faster implementation
+-   smaller implementation
+-   faster development
+-   fewer components
 
 ------------------------------------------------------------------------
 
 ## Debugging
 
-Intermediate states are visible:
+String rewriting exposes intermediate states naturally.
 
-``` text
-5+3*2
+Example:
 
-5+6
+5+3\*2 → 5+6 → 11
 
-11
-```
-
-This makes the execution process easier to inspect.
+The transformation path is visible without additional debugging tools.
 
 ------------------------------------------------------------------------
 
