@@ -1,4 +1,4 @@
-# Engineering Pattern: Conversion Matrix Engine  
+# Conversion Matrix Engine  
 ## Deterministic Unit Transformation Without Graph Traversal or Base Normalization
 
 ---
