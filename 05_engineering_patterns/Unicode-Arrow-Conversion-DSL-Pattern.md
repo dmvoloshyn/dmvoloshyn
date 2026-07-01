@@ -1,228 +1,282 @@
-# Unicode Arrow as Conversion Operator: Designing a Human-Readable Unit Conversion DSL
+# Engineering Pattern: Unicode Arrow DSL Operator System  
+## Semantic Operators in Plain Text Without Parsing Infrastructure
 
-## Overview
+---
 
-This article describes a user-oriented expression design pattern used in an engineering calculation system to create a simple domain-specific language (DSL) for unit conversion.
+## Abstract
 
-The idea is to allow users to define conversions directly inside a text field using a natural mathematical notation.
+Traditional expression systems separate syntax and semantics through parsing rules, operator tables, or AST structures.
+
+This pattern introduces a different approach:
+
+> Use Unicode characters as semantic operators inside raw text input.
+
+In particular, the Unicode arrow symbol:
+
+→ (U+2192)
+
+is used as a **first-class transformation operator** inside expression strings.
+
+This enables construction of a lightweight DSL directly inside UI text fields without introducing parsing frameworks or grammar engines.
+
+---
+
+# 1. Problem Statement
+
+String-based systems that support unit conversion or transformation logic typically require:
+
+- explicit function calls
+- structured syntax
+- parsing layers
+- tokenization rules
+
+Example traditional form:
+
+convert(5, "km", "mi")
+
+This introduces unnecessary structural overhead for simple transformations.
+
+---
+
+# 2. Core Idea
+
+Replace function-based syntax with a visual semantic operator embedded in plain text.
+
+Instead of:
+
+5 km to mi
+
+or:
+
+convert(5 km mi)
+
+use:
+
+5 km → mi
+
+Key principle:
+
+> The user input itself becomes the DSL.
+
+No parser grammar is introduced. No AST is built. The string is the execution state.
+
+---
+
+# 3. Semantic interpretation model
+
+The system interprets the arrow symbol as a transformation delimiter.
+
+Expression structure:
+
+Left operand → Right operand
+
+Where:
+
+- Left side: source value and unit
+- Right side: target unit
+- Arrow: transformation operator
+
+---
+
+# 4. Why Unicode operator is important
+
+Unlike ASCII-based tokens, Unicode symbols:
+
+- are visually distinct
+- reduce ambiguity in parsing
+- improve user-level readability
+- naturally separate semantic regions
+
+The arrow symbol acts as a **structural separator without lexical parsing rules**.
+
+---
+
+# 5. Comparison with traditional approaches
+
+## Function-based DSL
 
 Example:
 
-    5.2km→mi
+convert(5 km mi)
 
-The expression itself contains:
+Characteristics:
 
-- source value
-- source unit
-- conversion operator
-- target unit
-
-
-Instead of using separate input fields, buttons, or configuration menus, the system interprets the expression directly.
+- requires parser
+- requires function registry
+- requires argument parsing logic
 
 ---
 
-## Problem
-
-Traditional unit converters usually require multiple UI components:
-
-- value input field
-- source unit selector
-- destination unit selector
-- conversion button
-
-This increases interface complexity.
-
-For engineering applications, users often think in expressions rather than forms.
-
-Examples:
-
-    10ft³ to m³
-
-    100km to mi
-
-    5psi to bar
-
-
-The challenge was creating a compact input format that remains readable for humans and simple for the parser.
-
----
-
-## Solution Concept
-
-The system uses the Unicode arrow character:
-
-    →
-
-as a semantic separator between source and destination units.
-
-
-Expression format:
-
-    value + source unit → target unit
-
+## AST-based systems
 
 Example:
 
-    25ft³→m³
+fully parsed expression tree with operator nodes
 
+Characteristics:
 
-The parser interprets:
-
-    25
-
-as value,
-
-    ft³
-
-as source unit,
-
-and:
-
-    m³
-
-as target unit.
+- strict grammar required
+- heavyweight implementation
+- multi-stage evaluation pipeline
 
 ---
 
-## Original Implementation Fragment
-
-The user interface inserts the conversion operator directly into the expression field:
-
-    bcuft.setOnAction(event -> {
-
-        if (me == 0) {
-
-            X.replaceSelection("ft³\u2192");
-
-            me = 1;
-
-        } else {
-
-            X.replaceSelection("ft³");
-
-        }
-
-    });
-
-
-The first action inserts:
-
-    ft³→
-
-
-The second action completes the target unit:
-
-    ft³
-
-
-This creates a guided input mechanism without additional UI controls.
-
----
-
-## Parser Logic
-
-The expression is later processed by splitting the input around the Unicode arrow:
-
-    \u2192
-
-
-Conceptually:
-
-    25ft³→m³
-
-
-becomes:
-
-    source side | target side
-
-
-Result:
-
-    25ft³
-
-and:
-
-    m³
-
-
-The calculation engine can then determine the conversion path.
-
----
-
-## Why Unicode Was Used
-
-The arrow symbol was chosen because it is:
-
-- visually understandable
-- close to mathematical notation
-- rarely used inside unit names
-- immediately recognizable as a transformation operator
-
-The expression becomes self-explanatory.
+## Unicode Arrow DSL system
 
 Example:
 
-    km→mi
+5 km → mi
 
-is understood without additional labels.
+Characteristics:
 
----
-
-## Engineering Reasoning
-
-Instead of building a complex interface around the calculation engine, the system moves part of the interaction into the expression language itself.
-
-The user input becomes both:
-
-- a command
-- a readable engineering statement
-
-
-This reduces UI complexity while keeping the workflow flexible.
+- no parser required
+- no AST required
+- direct string transformation
+- minimal syntactic overhead
 
 ---
 
-## Pattern Definition
+# 6. Execution model
 
-The reusable pattern:
+The system operates in three conceptual steps:
 
-    Human-readable notation
+1. Detect arrow symbol inside input string  
+2. Split string into left and right semantic segments  
+3. Apply transformation logic based on extracted units  
 
-            ↓
+Key property:
 
-    Lightweight parsing rule
-
-            ↓
-
-    Engineering calculation
-
-
-This approach is useful when:
-
-- users already understand domain notation
-- expressions are short
-- the interface should remain minimal
-- a full programming language is unnecessary
+> The arrow is not parsed as syntax. It is treated as a semantic boundary marker.
 
 ---
 
-## Applications
+# 7. Optimal use cases
 
-Possible applications:
+This pattern is optimal when:
 
-- engineering calculators
-- scientific tools
-- CAD-related utilities
-- measurement conversion systems
-- technical command interfaces
+- input originates from UI text fields
+- operations are limited and well-defined
+- transformations are domain-specific (units, conversions, mappings)
+- user experience is prioritized over formal language design
 
 ---
 
-## Engineering Insight
+# 8. Limitations
 
-A good engineering interface does not always require more controls.
+This approach is not suitable for:
 
-Sometimes the best solution is to create a simple language that matches the user's mental model.
+- general-purpose programming languages
+- nested expression grammars
+- complex conditional logic
+- recursive syntax structures
 
-The Unicode arrow pattern transforms a text field into a compact engineering command interface while preserving readability and usability.
+Because:
+
+- no hierarchical grammar model exists
+- no compositional parsing layer is present
+
+---
+
+# 9. Practical Code Implementation
+
+The Unicode Arrow DSL is implemented as a direct string transformation system where the arrow character acts as a semantic splitter for conversion logic.
+
+The core implementation logic operates by detecting the Unicode arrow and separating expression parts without constructing any AST or intermediate representation.
+
+The implementation excerpt:
+
+X.getText().replaceAll("[0-9.E\\u202F\\u2009 -]", "").split("\\u2192");
+
+After splitting:
+
+- left segment contains source value and unit
+- right segment contains target unit
+
+If numeric value is missing, default value is injected:
+
+if expression does not contain digits then prefix value becomes 1
+
+Transformation is then applied using a direct conversion lookup table or matrix.
+
+Finally, the result is reconstructed into a string format.
+
+---
+
+## Engineering interpretation
+
+The system treats:
+
+5 km → mi
+
+as a structured semantic instruction encoded in text form.
+
+No parsing tree is created. No grammar evaluation occurs.
+
+Instead:
+
+- Unicode arrow defines execution boundary
+- string split defines semantic segmentation
+- conversion engine applies deterministic mapping
+
+---
+
+# 10. Key optimization property
+
+Without Unicode DSL:
+
+- function-based syntax increases cognitive and implementation overhead
+- parsing layer required
+- argument validation required
+
+With Unicode Arrow DSL:
+
+- zero parsing overhead
+- direct semantic segmentation
+- UI-native readability
+- minimal transformation logic
+
+---
+
+# 11. Architectural impact
+
+This pattern introduces a new layer in expression systems:
+
+Traditional model:
+
+Input → Parser → AST → Evaluator → Output
+
+Unicode Arrow DSL model:
+
+Input → String Split → Semantic Mapping → Output
+
+Key insight:
+
+> Syntax is replaced by visual semantics.
+
+The operator is not interpreted structurally. It is interpreted spatially inside the string.
+
+---
+
+# 12. Final assessment
+
+Unicode Arrow DSL is not a general syntax system.
+
+It is a **UI-native semantic expression mechanism** designed for:
+
+- unit conversion systems
+- calculator interfaces
+- lightweight DSL environments
+- embedded expression editors
+
+Core advantages:
+
+- eliminates parser dependency
+- improves user readability
+- integrates directly into UI workflows
+- preserves string-as-state architecture
+
+---
+
+## Engineering principle
+
+When the domain is constrained and transformations are deterministic, syntax can be replaced by visual operators embedded directly in the input string.
