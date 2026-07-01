@@ -1,4 +1,4 @@
-# Engineering Patterns System Model: Unified Architecture of a Hybrid Computational Desktop System
+# Engineering Patterns System Model: Unified Architecture of a Hybrid Computational System
 
 ---
 
