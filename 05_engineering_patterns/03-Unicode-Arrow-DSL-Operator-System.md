@@ -1,4 +1,4 @@
-# Engineering Pattern: Unicode Arrow DSL Operator System  
+# Unicode Arrow DSL Operator System  
 ## Semantic Operators in Plain Text Without Parsing Infrastructure
 
 ---
