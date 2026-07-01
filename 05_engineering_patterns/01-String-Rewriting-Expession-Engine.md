@@ -267,6 +267,41 @@ becomes:
 
 The cycle continues until the expression is fully reduced.
 
+## Original Implementation Excerpt
+
+The following excerpt represents the core execution mechanism of the String Rewriting Expression Engine.
+
+It demonstrates how operator precedence is handled directly through evaluation order without AST, parser, or stack-based evaluation.
+
+```java
+do {
+
+    if (x.matches(".*[*/].*")) {
+
+        // multiplication and division have higher priority
+        // evaluated directly on extracted operands
+
+        Y5 = Y3 * Y4;
+
+        // replace evaluated fragment back into the expression string
+
+        break;
+    }
+
+    if (x.matches(".*[+-].*") 
+        && !x.matches(".*[*/].*")) {
+
+        // addition and subtraction are evaluated only
+        // after higher priority operations are resolved
+
+        Y5 = Y3 + Y4;
+
+        break;
+    }
+
+}
+while (x.matches(".*(snh|csh|tnh|sin|cos|tan|lg|ln|abs|[V%^*/+-]).*"));
+
 ------------------------------------------------------------------------
 
 # 9. Optimization Characteristics
