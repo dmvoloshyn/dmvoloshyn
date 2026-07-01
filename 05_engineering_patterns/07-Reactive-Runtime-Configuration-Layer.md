@@ -1,4 +1,4 @@
-# Engineering Pattern: Reactive Runtime Configuration Layer
+# Reactive Runtime Configuration Layer
 ## Dynamic Application State Switching in JavaFX
 
 ---
