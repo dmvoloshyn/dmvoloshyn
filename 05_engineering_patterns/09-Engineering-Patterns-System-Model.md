@@ -2,101 +2,96 @@
 
 ---
 
-## 1. Overview
+## 1. Architectural Premise
 
-This document unifies a set of engineering patterns implemented across a hybrid desktop system combining:
-* expression parsing and rewriting
-* domain-specific DSL interpretation
-* reactive UI behavior
-* structured navigation over unstructured text
-* integrity control at input boundaries
-* runtime configuration management
-* calculation engines based on matrix transformations
-* document generation pipelines
+The system architecture for applications across different platforms can be defined as a deterministic transformation pipeline operating over a single, evolving state. It does not separate concerns into isolated modules in the traditional sense. Instead, it defines a sequence of semantic transformations, where each stage progressively refines, constrains, and enriches the same underlying information.
 
-The system is not a collection of isolated features. It is a layered computational architecture built on progressive state transformation. The core principle is: "Every system layer transforms state in a controlled, traceable, and semantically constrained way."
+The central architectural principle is:
+
+> «Computation is not executed as isolated operations, but as a controlled flow of state transformations across layered semantic boundaries.»
+
+This shifts the system design from “components calling each other” to “structured evolution of state”.
 
 ---
 
-## 2. Global Architecture Model
+## 2. Core System Philosophy
 
-The system is structured as a sequential transformation pipeline:
-1. Input Integrity Layer
-2. String Rewrite Expression Engine
-3. Mask–Unmask Token Safety Layer
-4. Unicode Arrow DSL Layer
-5. Conversion Matrix Engine
-6. Reactive Runtime Configuration Layer
-7. Text Area Navigation as Structured Data Layer
-8. Hybrid PDF Reporting Architecture
+At the foundation of the architecture is a single invariant:
 
-Each layer is not independent. Each layer assumes correctness guarantees from the previous one.
+> «Every transformation must preserve semantic continuity while changing representation.»
 
----
+This means that:
+* raw user input is never directly executed
+* intermediate representations are always structured
+* every stage produces a verifiable transformation of the previous state
 
-## 3. Input Integrity Layer
-
-This is the first boundary between user behavior and system logic. It ensures that numeric values remain semantically stable during editing, destructive transformations (e.g., decimal loss) are prevented, and partial edits do not corrupt business meaning. The key idea: "UI input is treated as a state transition system, not raw text input." This layer prevents invalid propagation into computation layers.
+The system is therefore not a collection of features, but a continuous transformation machine.
 
 ---
 
-## 4. String Rewrite Expression Engine
+## 3. Input and Semantic Stabilization Boundary
 
-This layer replaces classical parsing models (AST/tokenization pipelines) with iterative string reduction through controlled rewriting rules. Instead of constructing abstract syntax trees, the system repeatedly transforms the expression string until a terminal state is reached. This creates a lightweight evaluation engine optimized for embedded environments.
-
----
-
-## 5. Mask–Unmask Token Safety Layer
-
-This layer solves token collision problems during transformation where overlapping tokens (units, operators, abbreviations) lead to ambiguous replacements. The solution involves temporary semantic masking of protected tokens: replace sensitive tokens with safe placeholders, perform global transformations, and restore original tokens after processing.
+The first stage of the system is responsible for stabilizing user-generated input. User input is inherently ambiguous (numbers may lose structural meaning, expressions may contain overlapping tokens, textual forms may encode multiple interpretations). Instead of rejecting ambiguity, the system constrains it. The input layer enforces semantic stability by ensuring that transformations do not destroy essential structural markers. This layer does not interpret meaning; it preserves it.
 
 ---
 
-## 6. Unicode Arrow DSL Layer
+## 4. Structural Rewriting Engine
 
-This layer introduces a human-readable domain-specific language inside raw text input using Unicode symbols as semantic operators. The parser operates directly on textual structure, eliminating the need for formal grammar definition while supporting bidirectional transformation (reverse conversion).
-
----
-
-## 7. Conversion Matrix Engine
-
-This layer replaces graph-based conversion systems with direct matrix lookup. Instead of graph traversal or normalization to SI base units, the system uses direct N×N coefficient matrices per domain. This ensures O(1) conversion time and avoids cumulative floating-point drift, representing a deliberate engineering trade-off: performance and precision over abstraction minimalism.
+After stabilization, the system enters a transformation phase where expressions are treated as mutable symbolic structures. Rather than constructing formal abstract syntax trees, the system applies iterative rewriting rules directly on textual representations. Each transformation step reduces complexity while preserving equivalence. This creates a controlled reduction engine where evaluation emerges from convergence, not parsing.
 
 ---
 
-## 8. Reactive Runtime Configuration Layer
+## 5. Token Isolation and Semantic Protection Layer
 
-This layer introduces system-wide state reactivity. Instead of imperative manual updates, the system uses observable configuration state driving automatic UI updates. When the configuration version (stored as a reactive property) changes, all UI bindings depend on this state and refresh automatically, ensuring zero manual UI synchronization.
-
----
-
-## 9. Text Area Navigation as Structured Data Layer
-
-This layer transforms unstructured text into navigable pseudo-structure. Without introducing a formal AST, the system uses the TextArea as a data container, applying regex-based classification and cursor-based semantic navigation. This bridges the gap between raw text UI and structured computation by treating linear text as structured data.
+During transformation, the system encounters overlapping symbolic domains (measurement units embedded in identifiers, multi-character semantic tokens, syntactically ambiguous sequences). To prevent unintended corruption, the system introduces temporary semantic isolation: sensitive tokens are abstracted into safe intermediate representations during processing and restored afterward, ensuring that global transformations do not interfere with embedded semantic structures.
 
 ---
 
-## 10. Hybrid PDF Reporting Architecture
+## 6. Embedded Domain Language Interpretation
 
-This is the output generation layer. It resolves the duality between UI representation and printable document representation by reusing the JavaFX scene graph as a rendering source for both. UI is rendered at high-resolution snapshot scale and embedded into PDF containers, avoiding duplication of layout logic.
-
----
-
-## 11. Cross-Layer System Properties
-
-Across all layers, the system maintains three invariant principles:
-1. **Controlled State Transition:** No layer modifies state arbitrarily; all transformations are deterministic and traceable.
-2. **Progressive Semantic Enrichment:** Raw input evolves through layers (text → expression → structured meaning → computation → visual output → document artifact).
-3. **Minimal Representation Duplication:** Each concept exists once in the system (no duplicate UI/report models or parallel transformation pipelines).
+The system allows user input to evolve into a lightweight embedded domain language without requiring formal grammar definitions. Symbols encode relational semantics directly within text. This creates a hybrid model where natural text, symbolic operators, and domain-specific meaning coexist, interpreting meaning through transformation rules rather than formal parsing grammars.
 
 ---
 
-## 12. Architectural Summary
+## 7. Reactive Execution Model
 
-The system is a layered state transformation engine operating over a hybrid UI, computation, and document generation pipeline. It unifies DSL interpretation, reactive UI systems, rule-based computation, structural emulation over text, and high-fidelity output generation.
+System behavior is driven by a reactive execution layer that replaces imperative update logic. Instead of explicitly propagating changes, the system defines dependencies between state elements. When a state transition occurs, dependent behaviors trigger automatically, creating a deterministic event propagation graph where behavior emerges from state relationships rather than procedural instructions.
 
 ---
 
-## 13. Final Insight
+## 8. Integrity Enforcement at Interaction Boundaries
 
-The central architectural insight is: "Complexity is not removed, but redistributed into controlled transformation layers." Instead of building heavy frameworks, the system builds a chain of small deterministic engines, each responsible for one semantic transformation step. The result is a system that behaves like a structured interpreter while remaining a lightweight desktop application.
+User interaction is treated as a high-risk transformation zone. Every modification initiated through the UI is intercepted before it becomes part of the computational state. The system enforces integrity constraints that prevent loss of numeric structure or invalid intermediate states, creating a controlled bridge between human input and deterministic execution.
+
+---
+
+## 9. Matrix-Based Transformation Engine
+
+For domain-specific computations, the system avoids graph traversal or multi-step normalization, using direct coefficient mapping structures. Each transformation is resolved through direct lookup rather than chained paths. This design choice prioritizes deterministic results and constant-time evaluation, trading structural density for computational simplicity and predictability.
+
+---
+
+## 10. Runtime State Propagation Layer
+
+System configuration is modeled as a reactive runtime state. Changes in configuration propagate automatically through dependent components without explicit update calls. The architecture eliminates manual synchronization by introducing a shared reactive state, ensuring the system remains consistent under dynamic runtime changes.
+
+---
+
+## 11. Output Generation and Document Synthesis Layer
+
+The final stage transforms UI state into external artifacts. Reusing the existing visual representation as the source of truth, the system renders the UI scene at high fidelity and embeds it into structured document containers. This ensures consistency between what the user sees, what the system calculates, and what the system exports, eliminating divergence between representations.
+
+---
+
+## 12. System-Wide Architectural Invariants
+
+Across all layers, the system maintains three fundamental invariants:
+1. **Deterministic State Transformation:** Every change is the result of a defined transformation rule.
+2. **Semantic Continuity Across Layers:** Meaning is preserved across representation changes as information is refined.
+3. **Single Source of Truth Principle:** No semantic model is duplicated; each concept exists in exactly one canonical form at runtime.
+
+---
+
+## 13. Final Architectural Interpretation
+
+The system is best understood not as a collection of modules, but as a layered semantic transformation engine. It continuously converts raw input into structured expressions, constrained symbolic forms, reactive states, computed results, and finally into external artifacts. Each layer refines the previous one without breaking semantic continuity. The result is a deterministic, layered computation architecture that unifies expression processing, reactive execution, integrity enforcement, domain-specific interpretation, and document generation into a single coherent pipeline.
