@@ -302,6 +302,7 @@ do {
 }
 while (x.matches(".*(snh|csh|tnh|sin|cos|tan|lg|ln|abs|[V%^*/+-]).*"));
 
+
 ------------------------------------------------------------------------
 
 # 9. Optimization Characteristics
