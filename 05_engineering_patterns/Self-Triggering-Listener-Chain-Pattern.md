@@ -1,4 +1,4 @@
-# Engineering Pattern: Reactive Listener Execution Model  
+# Reactive Listener Execution Model  
 ## Event-Driven Computation Without Explicit Control Flow
 
 ---
