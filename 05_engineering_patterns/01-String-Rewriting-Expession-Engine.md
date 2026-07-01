@@ -1,4 +1,4 @@
-# Engineering Pattern: String Rewriting Expression Engine
+# String Rewriting Expression Engine
 
 ## Expression Evaluation Without AST or Parser Frameworks
 
