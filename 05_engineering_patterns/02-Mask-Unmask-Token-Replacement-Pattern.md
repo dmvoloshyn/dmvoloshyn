@@ -1,4 +1,4 @@
-# Engineering Pattern: Mask–Unmask Token Safety System  
+# Mask–Unmask Token Safety System  
 ## Safe String Transformation in Overlapping Token Spaces
 
 ---
