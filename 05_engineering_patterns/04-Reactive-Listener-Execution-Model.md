@@ -191,6 +191,8 @@ Because:
 
 # 9. Practical Code Implementation
 
+In practical UI-driven systems, this reactive execution model is not limited to numerical computation; it also governs incremental visual state transitions such as animated text construction and progressive UI rendering.
+
 The Reactive Listener Execution Model is implemented using property observers attached to UI components. These listeners trigger computation pipelines automatically whenever input state changes.
 
 The core mechanism is based on attaching listeners to observable properties such as text fields, opacity values, or selection state.
