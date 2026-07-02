@@ -49,7 +49,7 @@ Documents reusable technical solutions and design patterns identified during dev
 
 ### 6. Architecture Mapping
 Bridges the gap between abstract engineering patterns and specific commercial software product features.
-* [06-dmv_software_architecture_mapping.md](./06-dmv_software_architecture_mapping.md)
+* [06-dmv_software_architecture_mapping.md](/06-dmv_software_architecture_mapping.md)
 
 ### 7. DmV Software Products
 Overview of the DmV Software commercial product ecosystem, vision, and development roadmap.
