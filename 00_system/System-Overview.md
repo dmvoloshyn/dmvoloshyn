@@ -61,7 +61,7 @@ End-user operational and technical documentation for the construction estimation
 
 ### 9. DmV Calculator PRO Manual
 Comprehensive technical and operational guide for the engineering calculation environment.
-* [DmV Calculator PRO Manual](../09_manual_dmb_calculator_pro.pdf)
+* [DmV Calculator PRO Manual](../09_manual_dmv_calculator_pro.pdf)
 
 ---
 
