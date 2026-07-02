@@ -105,3 +105,7 @@ This is the core principle of integrated systems engineering.
 
 ## Result
 Embedded systems engineering is not an isolated discipline, but a foundational layer of a broader unified engineering architecture approach. It demonstrates how physical constraints and computational logic merge into a single structured solution system.
+
+## Navigation
+
+[Back to System Overview](../00_system/System-Overview.md)
