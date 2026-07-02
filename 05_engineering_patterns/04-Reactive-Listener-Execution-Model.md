@@ -297,3 +297,7 @@ Core advantages:
 ## Engineering principle
 
 When state is the primary source of truth, execution should emerge from state changes rather than explicit invocation.
+
+## Navigation
+
+[Back to System Overview](../00_system/System-Overview.md)
