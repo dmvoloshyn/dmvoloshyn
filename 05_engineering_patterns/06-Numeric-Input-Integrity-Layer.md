@@ -237,3 +237,7 @@ The main value of this pattern is not restoring a separator. The deeper architec
 
 A mature application does not wait until data reaches the calculation engine to discover that meaning has already been lost. 
 The Numeric Input Integrity Layer creates a controlled bridge between human editing behavior and deterministic software processing.
+
+## Navigation
+
+[Back to System Overview](../00_system/System-Overview.md)
