@@ -53,7 +53,7 @@ Bridges the gap between abstract engineering patterns and specific commercial so
 
 ### 7. DmV Software Products
 Overview of the DmV Software commercial product ecosystem, vision, and development roadmap.
-* DmV Software Products](../07_dmv_software_products.md)
+* [DmV Software Products](../07_dmv_software_products.md)
 
 ### 8. Concrete Works Cost Estimator Manual
 End-user operational and technical documentation for the construction estimation system.
