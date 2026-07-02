@@ -271,3 +271,7 @@ Core advantages:
 ## Engineering principle
 
 When the domain is finite and well-defined, transformation logic should be encoded as a direct mapping matrix rather than a navigable graph or normalized hierarchy.
+
+## Navigation
+
+[Back to System Overview](../00_system/System-Overview.md)
