@@ -110,3 +110,7 @@ This pattern is optimal when the UI already represents the final business layout
 ## 11. Engineering Value
 
 The key contribution of this pattern is architectural unification. Instead of maintaining two layout systems, the system maintains one layout system for two rendering targets. This reduces duplication, prevents divergence, and improves long-term maintainability of reporting-heavy applications.
+
+## Navigation
+
+[Back to System Overview](../00_system/System-Overview.md)
