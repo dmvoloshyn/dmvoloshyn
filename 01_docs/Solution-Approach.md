@@ -67,3 +67,7 @@ Successful engineering solutions require balance between:
 - reliability and maintainability
 
 The final objective is always a working solution that provides measurable value in a real operational environment.
+
+## Navigation
+
+[Back to System Overview](../00_system/System-Overview.md)
