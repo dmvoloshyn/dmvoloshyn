@@ -55,3 +55,7 @@ The core philosophy remains constant:
 
 ## Result
 This domain demonstrates the ability to design and implement complex technical systems that combine hardware engineering, embedded software, and real-world operational requirements into functional, reliable, and high-performance solutions.
+
+## Navigation
+
+[Back to System Overview](../00_system/System-Overview.md)
