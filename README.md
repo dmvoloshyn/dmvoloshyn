@@ -87,58 +87,9 @@ Specializing in the development of software-driven engineering systems that inte
 
 # LINKS — Integrated Engineering Portfolio Navigation
 
-## 00_system
+## MAIN INTERNAL LINK
+
 - [System Overview](./00_system/System-Overview.md)
-
----
-
-## 01_docs
-- [System Architecture](./01_docs/System-Architecture.md)
-- [Solution Approach](./01_docs/Solution-Approach.md)
-- [Technical Decisions](./01_docs/Technical-Decisions.md)
-
----
-
-## 02_projects
-- [Concrete Works Cost Estimator Pro](./02_projects/Concrete-Works-Cost-Estimator-Pro.md)
-- [DmV Calculator Pro](./02_projects/DmV-Calculator-Pro.md)
-- [Embedded Systems Engineering](./02_projects/Embedded-Systems-Engineering.md)
-
----
-
-## 03_examples
-- [Concrete Estimation Workflow](./03_examples/Concrete-Estimation-Workflow.md)
-- [Embedded Control Scenario](./03_examples/Embedded-Control-Scenario.md)
-- [Integrated System Behavior](./03_examples/Integrated-System-Behavior.md)
-
----
-
-## 04_theory
-- [Software Engineering Principles](./04_theory/Software-Engineering-Principles.md)
-
----
-
-## 05_engineering_patterns
-
-- [Mask-Unmask Token Replacement Pattern](./05_engineering_patterns/Mask-Unmask-Token-Replacement-Pattern.md)
-
-- [Unicode Arrow Conversion DSL Pattern](./05_engineering_patterns/Unicode-Arrow-Conversion-DSL-Pattern.md)
-
-- [Self-Triggering Listener Chain Pattern (JavaFX Reactive UI)](./05_engineering_patterns/Self-Triggering-Listener-Chain-Pattern.md)
-
-- [TextArea Navigation as Structured Data Pattern](./05_engineering_patterns/TextArea-Navigation-as-Structured-Data-Pattern.md)
-
----
-
-##  06_dmv_software_architecture_mapping
-
-- [DmV Software Architecture Mapping](./06_dmv_software_architecture_mapping.md)
-
----
-
-## 07_dmv_software_products
-
-- [DmV Software Products](./07_dmv_software_products.md)
 
 ---
 
