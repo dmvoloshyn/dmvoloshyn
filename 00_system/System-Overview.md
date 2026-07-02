@@ -6,7 +6,7 @@ This repository represents an integrated engineering system that combines softwa
 ![System Architecture Overview](./1000144295.jpg)
 
 ## 1. System Thinking Layer (`01_docs/`)
-* [Solution-Approach.md](./01_docs/Solution-Approach.md)
+* - [Solution-Approach](./01_docs/Solution-Approach.md)
 * [System-Architecture.md](./01_docs/System-Architecture.md)
 * [Technical-Decisions.md](./01_docs/Technical-Decisions.md)
 
