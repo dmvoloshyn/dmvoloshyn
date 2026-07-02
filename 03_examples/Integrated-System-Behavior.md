@@ -44,3 +44,7 @@ Both are transformations of input data through a structured decision model into 
 
 ## System-Level Conclusion
 This confirms that all implemented projects in this repository are not isolated solutions, but manifestations of a single unified engineering system architecture.
+
+## Navigation
+
+[Back to System Overview](../00_system/System-Overview.md)
