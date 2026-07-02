@@ -10,15 +10,13 @@ This layer represents the transition from system architecture to real-world appl
 
 ---
 
-# Navigation
+## Architecture Context
 
-## System Architecture
+DmV Software Products represent the applied implementation layer of the architecture.
 
-[System Overview](./00_system/System-Overview.md)
+The relationship between engineering concepts and products is:
 
-[Engineering Patterns](./05_engineering_patterns/)
-
-[DmV Software Architecture Mapping](./06_dmv_software_architecture_mapping.md)
+System Architecture → Engineering Patterns → DmV Software Architecture Mapping → Products
 
 ---
 
