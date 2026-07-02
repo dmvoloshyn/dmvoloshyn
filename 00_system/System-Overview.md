@@ -33,11 +33,11 @@ Defines universal principles of software and engineering systems.
 
 ### 5. Engineering Patterns Layer (`05_engineering_patterns/`)
 Documents reusable technical solutions and design patterns identified during development.
-* [String Rewriting Expession Engine](../05_engineering_patterns/01-String-Rewriting-Expression-Engine.md)
+* [String Rewriting Expression Engine](../05_engineering_patterns/01-String-Rewriting-Expression-Engine.md)
 * [Mask Unmask Token Safety System](../05_engineering_patterns/02-Mask-Unmask-Token-Safety-System.md)
 * [Unicode Arrow DSL Operator System](../05_engineering_patterns/03-Unicode-Arrow-DSL-Operator-System.md)
 * [Reactive Listener Execution Model](../05_engineering_patterns/04-Reactive-Listener-Execution-Model.md)
-* [Convertion Matrix Engine](../05_engineering_patterns/05-Conversion-Matrix-Engine.md)
+* [Conversion Matrix Engine](../05_engineering_patterns/05-Conversion-Matrix-Engine.md)
 * [Numeric Input Integrity Layer](../05_engineering_patterns/06-Numeric-Input-Integrity-Layer.md)
 * [Reactive Runtime Configuration Layer](../05_engineering_patterns/07-Reactive-Runtime-Configuration-Layer.md)
 * [Hybrid PDF Reporting Architecture](../05_engineering_patterns/08-Hybrid-PDF-Reporting-Architecture.md)
