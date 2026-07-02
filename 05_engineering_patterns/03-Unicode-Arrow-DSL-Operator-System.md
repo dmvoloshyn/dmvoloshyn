@@ -280,3 +280,7 @@ Core advantages:
 ## Engineering principle
 
 When the domain is constrained and transformations are deterministic, syntax can be replaced by visual operators embedded directly in the input string.
+
+## Navigation
+
+[Back to System Overview](../00_system/System-Overview.md)
