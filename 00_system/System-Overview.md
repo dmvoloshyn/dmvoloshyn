@@ -5,7 +5,6 @@ This repository represents an integrated engineering system that combines softwa
 
 The core objective is to transform complex engineering problems into structured, operational systems through a consistent **problem → model → implementation** approach.
 
-
 <img width="1536" height="1024" alt="StructureDiagram1" src="https://github.com/user-attachments/assets/b83b9305-2869-43e1-a17e-40f6a3ec1b2e" />
 
 ## Repository Structure
@@ -70,7 +69,6 @@ Comprehensive technical and operational guide for the engineering calculation en
 The repository architecture ensures that every engineered solution is traceable from the system theory to the final commercial product.
 
 <img width="1408" height="768" alt="Diagram2" src="https://github.com/user-attachments/assets/47bc13b8-e1b5-47df-ac59-f92b151484d9" />
-
 
 ## Repository
 
