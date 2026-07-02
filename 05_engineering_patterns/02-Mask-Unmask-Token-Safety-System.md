@@ -229,3 +229,7 @@ Core advantages:
 ## Engineering principle
 
 Before transforming a string, its semantic structure must be protected. Only then can transformation remain deterministic.
+
+## Navigation
+
+[Back to System Overview](../00_system/System-Overview.md)
