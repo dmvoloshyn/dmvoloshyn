@@ -69,3 +69,7 @@ Comprehensive technical and operational guide for the engineering calculation en
 The repository architecture ensures that every engineered solution is traceable from the system theory to the final commercial product.
 
 <img width="1408" height="768" alt="Diagram2" src="https://github.com/user-attachments/assets/47bc13b8-e1b5-47df-ac59-f92b151484d9" />
+
+## Repository
+
+[Back to Repository Root](../README.md)
