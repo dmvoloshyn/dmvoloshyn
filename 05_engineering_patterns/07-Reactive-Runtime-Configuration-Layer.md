@@ -260,3 +260,7 @@ The value of this pattern is not dynamic language switching itself. The deeper a
 This reduces coupling between configuration logic and presentation logic. The result is a system where runtime changes propagate naturally through the architecture instead of requiring manual synchronization.
 
 The Reactive Runtime Configuration Layer transforms configuration management from a collection of update procedures into a controlled reactive execution model.
+
+## Navigation
+
+[Back to System Overview](../00_system/System-Overview.md)
