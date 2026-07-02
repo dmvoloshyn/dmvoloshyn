@@ -64,3 +64,7 @@ The project represents an integrated engineering approach where domain logic, so
 This project follows the same development philosophy:
 
 **Engineering problem &rarr; Solution model &rarr; Software implementation &rarr; Usable technical system**
+
+## Navigation
+
+[Back to System Overview](../00_system/System-Overview.md)
