@@ -47,21 +47,21 @@ Documents reusable technical solutions and design patterns identified during dev
 
 ## Product & Operational Documentation
 
-### 6. Architecture Mapping
+### 6. DmV Software Architecture Mapping
 Bridges the gap between abstract engineering patterns and specific commercial software product features.
-* [06-dmv_software_architecture_mapping.md](/06-dmv_software_architecture_mapping.md)
+* [DmV Software Architecture Mapping](../06_dmv_software_architecture_mapping.md)
 
 ### 7. DmV Software Products
 Overview of the DmV Software commercial product ecosystem, vision, and development roadmap.
-* [07-dmv_software_products.md](../07-dmv_software_products.md)
+* DmV Software Products](../07_dmv_software_products.md)
 
 ### 8. Concrete Works Cost Estimator Manual
 End-user operational and technical documentation for the construction estimation system.
-* [08_manual_concrete_works_estimator_pro_en.pdf](../08_manual_concrete_works_estimator_pro_en.pdf)
+* [Concrete Works Cost Estimator Manual](../08_manual_concrete_works_estimator_pro_en.pdf)
 
 ### 9. DmV Calculator PRO Manual
 Comprehensive technical and operational guide for the engineering calculation environment.
-* [09_manual_dmb_calculator_pro.pdf](../09_manual_dmb_calculator_pro.pdf)
+* [DmV Calculator PRO Manual](../09_manual_dmb_calculator_pro.pdf)
 
 ---
 
