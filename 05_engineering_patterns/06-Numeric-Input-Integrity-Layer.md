@@ -1,4 +1,4 @@
-# Engineering Pattern: Numeric Input Integrity Layer
+# Numeric Input Integrity Layer
 ## Protecting Business Data at the UI Boundary
 
 ---
