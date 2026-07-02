@@ -95,3 +95,7 @@ Across all layers, the system maintains three fundamental invariants:
 ## 13. Final Architectural Interpretation
 
 The system is best understood not as a collection of modules, but as a layered semantic transformation engine. It continuously converts raw input into structured expressions, constrained symbolic forms, reactive states, computed results, and finally into external artifacts. Each layer refines the previous one without breaking semantic continuity. The result is a deterministic, layered computation architecture that unifies expression processing, reactive execution, integrity enforcement, domain-specific interpretation, and document generation into a single coherent pipeline.
+
+## Navigation
+
+[Back to System Overview](../00_system/System-Overview.md)
