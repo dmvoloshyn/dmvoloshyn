@@ -33,15 +33,15 @@ Defines universal principles of software and engineering systems.
 
 ### 5. Engineering Patterns Layer (`05_engineering_patterns/`)
 Documents reusable technical solutions and design patterns identified during development.
-* [01-String-Rewriting-Expession-Engine.md](../05_engineering_patterns/01-String-Rewriting-Expession-Engine.md)
-* [02-Mask-Unmask-Token-Safety-System.md](../05_engineering_patterns/02-Mask-Unmask-Token-Safety-System.md)
-* [03-Unicode-Arrow-DSL-Operator-System.md](../05_engineering_patterns/03-Unicode-Arrow-DSL-Operator-System.md)
-* [04-Reactive-Listener-Execution-Model.md](../05_engineering_patterns/04-Reactive-Listener-Execution-Model.md)
-* [05-Convertion-Matrix-Engine.md](../05_engineering_patterns/05-Convertion-Matrix-Engine.md)
-* [06-Numeric-Input-Integrity-Layer.md](../05_engineering_patterns/06-Numeric-Input-Integrity-Layer.md)
-* [07-Reactive-Runtime-Configuration-Layer.md](../05_engineering_patterns/07-Reactive-Runtime-Configuration-Layer.md)
-* [08-Hybrid-PDF-Reporting-Architecture.md](../05_engineering_patterns/08-Hybrid-PDF-Reporting-Architecture.md)
-* [09-Engineering-Patterns-System-Model.md](../05_engineering_patterns/09-Engineering-Patterns-System-Model.md)
+* [String Rewriting Expession Engine](../05_engineering_patterns/01-String-Rewriting-Expession-Engine.md)
+* [Mask Unmask Token Safety System](../05_engineering_patterns/02-Mask-Unmask-Token-Safety-System.md)
+* [Unicode Arrow DSL Operator System](../05_engineering_patterns/03-Unicode-Arrow-DSL-Operator-System.md)
+* [Reactive Listener Execution Model](../05_engineering_patterns/04-Reactive-Listener-Execution-Model.md)
+* [Convertion Matrix Engine](../05_engineering_patterns/05-Convertion-Matrix-Engine.md)
+* [Numeric Input Integrity Layer](../05_engineering_patterns/06-Numeric-Input-Integrity-Layer.md)
+* [Reactive Runtime Configuration Layer](../05_engineering_patterns/07-Reactive-Runtime-Configuration-Layer.md)
+* [Hybrid PDF Reporting Architecture](../05_engineering_patterns/08-Hybrid-PDF-Reporting-Architecture.md)
+* [Engineering Patterns System Model](../05_engineering_patterns/09-Engineering-Patterns-System-Model.md)
 
 ---
 
