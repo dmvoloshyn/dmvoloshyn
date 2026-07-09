@@ -82,4 +82,4 @@ Input → System Model → Implementation → Execution → Output
 
 Each layer represents a different abstraction level of the same engineering architecture.
 
-📄 [**Download my professional CV (PDF)](./CV_Dmytro_Voloshyn.pdf)
+📄 [Download my professional CV (PDF)](./CV_Dmytro_Voloshyn.pdf)
