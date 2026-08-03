@@ -5,6 +5,15 @@
 
 Engineering professional specializing in the end-to-end development of software products. As a true "Solution Maker", I take concepts from an abstract idea through all stages of engineering and software design, delivering a final commercial GUI application ready for end users. I bridge the gap between physical engineering (electronics, embedded systems) and high-level software architecture, creating reliable, standalone applications using Java, JavaFX, and Android.
 
+### Core Technical & Product Capabilities
+
+*   **Core Development & Commercial Software:
+** Architected and developed commercial software products from initial concepts to fully packaged applications, including comprehensive technical documentation. Designed a highly scalable UI architecture supporting multiple visual themes and comprehensive multilingual localization across eight languages. Engineered a dual-mode calculation engine with dynamic, customizable coefficients and an advanced History Journal for persistent state management, including intelligent autofill, cross-session data transfer, and sophisticated search capabilities. Implemented automated generation of finalized PDF reports with integrated QR codes and cryptographic hash values to ensure secure data traceability and document integrity.
+*   **Mobile & Systems Architecture:
+** Designed robust software architectures based on systems engineering principles and developed high-precision engineering utilities for Android and Java, optimized for practical field use and capable of handling complex unit conversions and technical engineering formulas.
+*   **Scientific Software & AI Integration:
+** Currently developing scientific applications, including Marine Data Lab for oceanographic research, integrating native C/C++ components via JNI for complex data processing. Actively leveraging AI-assisted and agentic development tools, including ChatGPT and Claude Code, within daily software engineering workflows to accelerate development, optimize algorithms, and improve overall engineering efficiency.
+
 ### Engineering Background
 *   **Software Engineering:** Java, JavaFX, Android SDK, Application Packaging (JPackage)
 *   **Full-Cycle Product Development:** From an initial abstract idea to a fully deployed commercial GUI application for final customers
@@ -70,6 +79,7 @@ Specializing in full-cycle product development—transforming abstract engineeri
 
 ## PRODUCTS
 
+- Marine Data Lab *(Currently in development)*
 - Concrete Works Cost Estimator Pro
 - DMV Calculator Pro
 - Technical Documentation Packages
