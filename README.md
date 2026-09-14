@@ -55,6 +55,7 @@ Specializing in full-cycle product development—transforming abstract engineeri
 *   Electronics & Embedded Systems
 *   Computational Engineering Tools
 *   Workflow Automation Systems
+*  ​ AI & Agentic Workflows
 
 ---
 
@@ -74,12 +75,18 @@ Specializing in full-cycle product development—transforming abstract engineeri
 
 ---
 
-## PRODUCTS
+## COMMERCIAL PRODUCTS
 
-- Marine Data Lab *(Currently in development)*
+- Marine Data Lab *(Developed, Phase 2: modifications in progress)*
 - Concrete Works Cost Estimator Pro
 - DMV Calculator Pro
 - Technical Documentation Packages
+
+---
+
+## R&D & OPEN-SOURCE SOLUTIONS
+
+- NASA Enterprise Mission Control Agent *(AI-driven data orchestration: Gemini, Java, LangChain4j)*
 
 ---
 
