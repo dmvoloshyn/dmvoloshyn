@@ -27,6 +27,11 @@ Designing and implementing standalone software products that bridge the gap betw
 
 ### Selected Engineering Solutions
 
+**Marine Data Lab (Windows Desktop)** A sophisticated scientific data-processing application designed for oceanographic research and advanced data analysis. Built with Java/JavaFX to handle computationally intensive scientific workflows and large-scale datasets.
+
+* **Key engineering solutions:** Seamless integration of high-performance native C++ scientific libraries via JNI (Java Native Interface), and complex spatial data processing utilizing GeoJSON libraries.
+* **Goal:** To provide a robust, high-performance computational environment for processing regional oceanographic data and applying rigorous quality control standards.
+
 **DmV Calculator Pro (Android)**
 Mobile engineering calculation software designed to automate structured technical calculations. Built to support engineering workflows in the field through reliable data processing, modular logic, and user-oriented design principles.
 *   **Key focus:** Structured computation models, reusable calculation logic, and offline-first mobile architecture.
