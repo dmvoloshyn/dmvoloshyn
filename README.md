@@ -32,6 +32,11 @@ Designing and implementing standalone software products that bridge the gap betw
 * **Key engineering solutions:** Seamless integration of high-performance native C++ scientific libraries via JNI (Java Native Interface), and complex spatial data processing utilizing GeoJSON libraries.
 * **Goal:** To provide a robust, high-performance computational environment for processing regional oceanographic data and applying rigorous quality control standards.
 
+**NASA Enterprise Mission Control Agent (Agentic AI)** A multi-domain AI research agent designed to orchestrate 10 fragmented NASA APIs through a natural language interface. Built with Java, LangChain4j, and Gemini to automate complex aerospace data analysis.
+
+* **Key engineering solutions:** Implementation of multi-step tool chaining (agentic workflows), resilient API fallback mechanisms (model and multi-key rotation), and strict live-data grounding to prevent LLM hallucinations.
+* **Goal:** To eliminate the bottleneck of manual, cross-endpoint data gathering by transforming multi-step data retrieval and calculation into a seamless, automated AI-driven process.
+
 **DmV Calculator Pro (Android)**
 Mobile engineering calculation software designed to automate structured technical calculations. Built to support engineering workflows in the field through reliable data processing, modular logic, and user-oriented design principles.
 *   **Key focus:** Structured computation models, reusable calculation logic, and offline-first mobile architecture.
