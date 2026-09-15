@@ -1,15 +1,26 @@
-⁸# Dmytro Voloshyn
+# Dmytro Voloshyn
 
-## Integrated Systems & Solutions Architect | Senior Java Application Engineer
-**Solution Maker | Standalone Desktop & Android | Industrial & Embedded Systems Expert**
+## Software & Solutions Architect | Product Owner | Java Desktop & Mobile Applications Engineer | AI & Integrated Systems Expert
 
-Engineering professional specializing in the end-to-end development of software products. As a true "Solution Maker", I take concepts from an abstract idea through all stages of engineering and software design, delivering a final commercial GUI application ready for end users. I bridge the gap between physical engineering (electronics, embedded systems) and high-level software architecture, creating reliable, standalone applications using Java, JavaFX, and Android.
+Engineering professional specializing in the end-to-end development of software products. As a Solution Maker, I take concepts from an abstract idea through architecture, software engineering, integration, validation, and packaging to deliver complete commercial applications for end users.
+
+My current work combines Java, JavaFX, Android, scientific software, AI/LLM integration, agentic systems, REST API orchestration, and hardware-software integration. I bridge physical engineering — electronics, embedded systems, industrial automation — with high-level software architecture, applying Integrated Systems Engineering and full-cycle product ownership.
 
 ### Core Technical & Product Capabilities
 
-*   **Core Development & Commercial Software:** Architected and developed commercial software products from initial concepts to fully packaged applications, including comprehensive technical documentation. Designed a highly scalable UI architecture supporting multiple visual themes and comprehensive multilingual localization across eight languages. Engineered a dual-mode calculation engine with dynamic, customizable coefficients and an advanced History Journal for persistent state management, including intelligent autofill, cross-session data transfer, and sophisticated search capabilities. Implemented automated generation of finalized PDF reports with integrated QR codes and cryptographic hash values to ensure secure data traceability and document integrity.
-*   **Mobile & Systems Architecture:** Designed robust software architectures based on systems engineering principles and developed high-precision engineering utilities for Android and Java, optimized for practical field use and capable of handling complex unit conversions and technical engineering formulas.
-*   **Scientific Software & AI Integration:** Currently developing scientific applications, including Marine Data Lab for oceanographic research, integrating native C/C++ components via JNI for complex data processing. Actively leveraging AI-assisted and agentic development tools within daily software engineering workflows to accelerate development, optimize algorithms, and improve overall engineering efficiency.
+*   **Core Development & Commercial Software:** Architected and developed commercial software products from initial concepts to fully packaged applications, including technical documentation, multilingual localization, parametric calculation engines, persistent History Journals, automated PDF reporting, and commercial deployment.
+
+*   **Mobile & Systems Architecture:** Designed robust software architectures based on systems engineering principles and developed high-precision engineering utilities for Android and Java, supporting complex unit conversions, technical formulas, and practical field workflows.
+
+*   **Scientific Software:** Currently developing scientific applications including Marine Data Lab for oceanographic research, integrating native C/C++ components via JNI for complex data processing, GeoJSON spatial processing, database integration, and structured data quality control.
+
+### AI Agent & Agentic Systems Engineering
+
+*   **Agent Architecture & Orchestration:** Design multi-domain AI agents combining LLM reasoning, deterministic tools, REST APIs, structured data, and application logic through multi-step agentic workflows and tool chaining.
+
+*   **Grounding & Resilience:** Implement live-data grounding, API fallback strategies, model/key rotation, failure handling, and controlled execution paths to improve reliability, traceability, and reduce hallucination risk.
+
+*   **AI-Assisted Engineering:** Use LLM tools for architecture exploration, implementation, refactoring, debugging, documentation, algorithm optimization, and workflow acceleration while retaining full control over code, validation, and final system behavior.
 
 ### Engineering Background
 *   **Software Engineering:** Java, JavaFX, Android SDK, Application Packaging (JPackage)
