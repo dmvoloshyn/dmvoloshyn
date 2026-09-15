@@ -23,7 +23,7 @@ My current work combines Java, JavaFX, Android, scientific software, AI/LLM inte
 *   **AI-Assisted Engineering:** Use LLM tools for architecture exploration, implementation, refactoring, debugging, documentation, algorithm optimization, and workflow acceleration while retaining full control over code, validation, and final system behavior.
 
 ### Engineering Background
-*   **Software Engineering:** Java, JavaFX, Android SDK, Application Packaging (JPackage)
+*   **Software Engineering:** Java, JavaFX, Android SDK, AI/LLM Integration, Application Packaging (JPackage)
 *   **Full-Cycle Product Development:** From an initial abstract idea to a fully deployed commercial GUI application for final customers
 *   **Systems Architecture:** Separation of logic, data, and presentation layers
 *   **Electronics & Embedded Systems Design:** Microprocessors, Assembler, Hardware Integration
@@ -66,17 +66,21 @@ My work is based on the principles of Integrated Systems Engineering:
 *   focus on reliability, consistency, and traceability of results
 
 ### Professional Identity
-**Integrated Solutions Architect & Java Application Developer** 
-with a 30-year background in electronics engineering, embedded systems, and microprocessor-based architectures, currently focused on designing engineering software solutions and desktop/mobile applications.
 
-Specializing in full-cycle product development—transforming abstract engineering concepts and physical constraints into structured, automated, and commercially viable software tools for end consumers.
+**Software & Solutions Architect | Product Owner | Java Desktop & Mobile Applications Engineer | AI & Integrated Systems Expert**
+
+With 30+ years of combined software, electronics, embedded systems, and systems engineering experience, I currently focus on scientific, engineering, commercial, and AI-driven software products for desktop and mobile platforms.
+
+I specialize in full-cycle product development — transforming abstract concepts, engineering requirements, and physical-system constraints into structured, automated, reliable, and commercially viable software solutions for end users.
 
 ### Selected Domains
+
+*   Software & Solutions Architecture
 *   Java Desktop & Mobile Application Development
-*   Electronics & Embedded Systems
-*   Computational Engineering Tools
-*   Workflow Automation Systems
-*  ​ AI & Agentic Workflows
+*   Product Development & Commercial Software
+*   AI, LLM & Agentic Systems
+*   Scientific & Engineering Software
+*   Electronics, Embedded & Industrial Systems
 
 ---
 
