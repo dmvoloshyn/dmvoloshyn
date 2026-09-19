@@ -16,22 +16,19 @@ This pattern defines a controlled data pipeline for JSON and GeoJSON information
 
 ## 2. Architectural Model
 
-External JSON / GeoJSON
-        ↓
-
-Parsing
-        ↓
-
-Validation
-        ↓
-
-Internal Data Model
-        ↓
-
-Scientific Processing
-        ↓
-
+``` text    
+     External JSON / GeoJSON
+                ↓
+             Parsing
+                ↓
+           Validation
+                ↓
+       Internal Data Model
+                ↓
+       Scientific Processing
+                ↓
 Analysis / Visualization / Reporting
+```
 
 ---
 
