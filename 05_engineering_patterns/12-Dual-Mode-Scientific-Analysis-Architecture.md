@@ -18,6 +18,7 @@ This pattern provides multiple analytical workflows over a shared scientific dat
 
 ## 2. Architectural Model
 
+``` text
              Persistent Research Data
                         ↓
             Shared Data / Domain Model
@@ -28,6 +29,7 @@ This pattern provides multiple analytical workflows over a shared scientific dat
                   ↓            ↓
                 Shared Calculation
                 & Validation Logic
+```
 
 ---
 
