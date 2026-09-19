@@ -20,14 +20,14 @@ This pattern provides multiple analytical workflows over a shared scientific dat
 
               Persistent Research Data
                          ↓
-            Shared Data / Domain Model
+           b Shared Data / Domain Model
                     ↙         ↘
-                   ↓           ↓
+                   ↓            ↓
       Single Measurement   Spatial-Temporal
            Analysis            Analysis
-                   ↓           ↓
-                Shared Calculation
-                & Validation Logic
+                   ↓            ↓
+                 Shared Calculation
+                 & Validation Logic
 
 ---
 
