@@ -127,6 +127,133 @@ Application:
 
 ---
 
+# Marine Data Lab
+
+Marine Data Lab extends the architecture from deterministic engineering computation into scientific data integration and analysis.
+
+---
+
+## Related Engineering Patterns
+
+---
+
+## Native Library Integration Through JNI
+
+Application:
+
+- Java application architecture
+- native C++ scientific libraries
+- JNI integration boundary
+- structured result processing
+
+---
+
+## Structured Spatial Data Integration
+
+Application:
+
+- JSON data processing
+- GeoJSON spatial information
+- structured geographic datasets
+- spatial analysis workflows
+
+---
+
+## Dual-Mode Scientific Analysis Architecture
+
+Application:
+
+- individual measurement analysis
+- spatial-temporal dataset analysis
+- shared scientific data model
+- persistent research context
+- automated assessment and manual validation
+
+---
+
+## Persistent Research Data Reuse
+
+Application:
+
+- History Journal
+- research record search
+- reusable datasets
+- intelligent autofill
+- selection of records for further analysis
+
+# NASA Enterprise Mission Control Agent
+
+NASA Enterprise Mission Control Agent extends the architecture into Agentic AI and distributed external-service orchestration.
+
+---
+
+## Related Engineering Patterns
+
+---
+
+## Agentic Tool Orchestration
+
+Application:
+
+- Java
+- LangChain4j
+- LLM reasoning
+- task decomposition
+- deterministic tools
+- multi-step tool chaining
+
+## Resilient API and Model Fallback
+
+Application:
+
+- multiple NASA APIs
+- API failure handling
+- model fallback
+- credential/key rotation
+- controlled degradation
+- alternative execution paths
+
+## Live-Data Grounding
+
+Application:
+
+- live NASA API retrieval
+- structured external data
+- factual grounding
+- reduced hallucination risk
+- traceable data-to-response flow
+
+## Deterministic Agent Evaluation
+
+Application:
+
+- expected tool selection
+- actual tool selection
+- execution outcomes
+- workflow validation
+- failure localization
+- system-level agent evaluation
+
+## Extended Architecture Flow
+
+The portfolio architecture therefore expands from deterministic engineering computation into scientific integration and Agentic AI:
+
+```text
+        System Architecture
+                 ↓
+        Engineering Patterns
+                 ↓
+Scientific & AI Integration Patterns
+                 ↓
+   Product / Agent Implementation
+                 ↓
+       Execution & Validation
+                 ↓
+    Commercial or Research Output
+```
+
+---
+
 # Shared Architectural Principles
 
 Both DmV Software products are based on the same engineering principles.
