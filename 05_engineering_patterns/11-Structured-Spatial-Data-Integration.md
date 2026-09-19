@@ -20,19 +20,15 @@ External JSON / GeoJSON
         ↓
 
 Parsing
-
         ↓
 
 Validation
-
         ↓
 
 Internal Data Model
-
         ↓
 
 Scientific Processing
-
         ↓
 
 Analysis / Visualization / Reporting
