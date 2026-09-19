@@ -16,15 +16,17 @@ This pattern defines an explicit integration boundary between Java application l
 
 ## 2. Architectural Model
 
-Java Application
-      ↓
+``` text
+  Java Application
+          ↓
 JNI Integration Layer
-      ↓
-Native C++ Library
-      ↓
-Native Result
-      ↓
-Java Data Processing
+          ↓
+  Native C++ Library
+          ↓
+    Native Result
+          ↓
+ Java Data Processing
+```
 
 The Java application remains responsible for application logic, workflow orchestration, validation, persistence, and user interaction.
 
