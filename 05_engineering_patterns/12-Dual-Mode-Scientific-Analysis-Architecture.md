@@ -23,8 +23,8 @@ This pattern provides multiple analytical workflows over a shared scientific dat
             Shared Data / Domain Model
                     ↙         ↘
                    ↓           ↓
-     Single Measurement   Spatial-Temporal
-          Analysis            Analysis
+      Single Measurement   Spatial-Temporal
+           Analysis            Analysis
                    ↓           ↓
                 Shared Calculation
                 & Validation Logic
