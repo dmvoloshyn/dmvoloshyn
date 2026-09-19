@@ -291,18 +291,12 @@ This creates a scalable foundation for future applications.
 DmV Software connects multiple architectural levels:
 
 ``` text
-System Architecture
-
-         ↓
-
-Engineering Patterns
-
-         ↓
-
-DmV Software Products
-
-         ↓
-
+ System Architecture
+          ↓
+ Engineering Patterns
+          ↓
+ DmV Software Products
+          ↓
 Commercial Distribution
 ```
 
