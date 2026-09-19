@@ -4,7 +4,7 @@
 
 ## Java-to-Native Computational Boundary
 
-## 1.Abstract
+## 1. Abstract
 
 High-level Java applications may need to reuse specialized native libraries when the required computational capability already exists outside the Java runtime.
 
@@ -12,7 +12,7 @@ This pattern defines an explicit integration boundary between Java application l
 
 ---
 
-## 2.Architectural Model
+## 2. Architectural Model
 
 Java Application
       ↓
@@ -30,7 +30,7 @@ The native library remains responsible for specialized computational operations.
 
 ---
 
-## 3.Core Principle
+## 3. Core Principle
 
 The integration boundary must prevent native implementation details from propagating through the complete application architecture.
 
@@ -38,7 +38,7 @@ JNI therefore acts as a controlled computational interface rather than simply a 
 
 ---
 
-## 4.Engineering Objectives
+## 4. Engineering Objectives
 
 - reuse specialized native computational capabilities;
 - avoid unnecessary reimplementation;
@@ -49,7 +49,7 @@ JNI therefore acts as a controlled computational interface rather than simply a 
 
 ---
 
-## 5.Application
+## 5. Application
 
 This pattern is used in scientific desktop software where Java/JavaFX application architecture integrates existing native C++ scientific libraries through JNI.
 
