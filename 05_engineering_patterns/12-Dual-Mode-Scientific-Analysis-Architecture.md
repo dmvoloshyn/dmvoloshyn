@@ -20,7 +20,7 @@ This pattern provides multiple analytical workflows over a shared scientific dat
 
              Persistent Research Data
                         ↓
-          b Shared Data / Domain Model
+            Shared Data / Domain Model
                    ↙         ↘
                   ↓            ↓
       Single Measurement   Spatial-Temporal
