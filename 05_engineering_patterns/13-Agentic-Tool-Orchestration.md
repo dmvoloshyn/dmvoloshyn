@@ -18,20 +18,28 @@ This pattern defines an agent architecture in which the LLM performs reasoning a
 
 Natural-Language Request
           ↓
+
      LLM Reasoning
           ↓
+
    Task Decomposition
           ↓
+
      Tool Selection
           ↓
+
  Deterministic Tool Execution
           ↓
+
  External API / Data Source
           ↓
+
  Structured Result
           ↓
+
      Agent Reasoning
           ↓
+
       Final Response
 
 ---
