@@ -18,14 +18,19 @@ This pattern defines a controlled data pipeline for JSON and GeoJSON information
 
 External JSON / GeoJSON
         ↓
+
 Parsing
         ↓
+
 Validation
         ↓
+
 Internal Data Model
         ↓
+
 Scientific Processing
         ↓
+
 Analysis / Visualization / Reporting
 
 ---
