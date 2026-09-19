@@ -4,6 +4,8 @@
 
 ## Java-to-Native Computational Boundary
 
+---
+
 ## 1. Abstract
 
 High-level Java applications may need to reuse specialized native libraries when the required computational capability already exists outside the Java runtime.
