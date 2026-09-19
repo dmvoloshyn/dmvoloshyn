@@ -16,6 +16,7 @@ This pattern defines an agent architecture in which the LLM performs reasoning a
 
 ## 2. Architectural Model
 
+```  text
 Natural-Language Request
           ↓
 
@@ -41,6 +42,7 @@ Agent Reasoning
           ↓
 
 Final Response
+```
 
 ---
 
