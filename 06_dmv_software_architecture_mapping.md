@@ -146,8 +146,6 @@ Application:
 - JNI integration boundary
 - structured result processing
 
----
-
 ## Structured Spatial Data Integration
 
 Application:
@@ -156,8 +154,6 @@ Application:
 - GeoJSON spatial information
 - structured geographic datasets
 - spatial analysis workflows
-
----
 
 ## Dual-Mode Scientific Analysis Architecture
 
@@ -169,8 +165,6 @@ Application:
 - persistent research context
 - automated assessment and manual validation
 
----
-
 ## Persistent Research Data Reuse
 
 Application:
@@ -180,6 +174,8 @@ Application:
 - reusable datasets
 - intelligent autofill
 - selection of records for further analysis
+
+---
 
 # NASA Enterprise Mission Control Agent
 
@@ -268,13 +264,11 @@ The architecture focuses on:
 - reusable solutions
 - efficient implementation
 
-
 ## User-Oriented Computation
 
 The user interface is treated as an active part of the computational process.
 
 Interaction, input, calculation, and output are combined into a single workflow.
-
 
 ## Reusable Engineering Logic
 
@@ -288,19 +282,21 @@ This creates a scalable foundation for future applications.
 
 DmV Software connects multiple architectural levels:
 
+``` text
 System Architecture
 
-↓
+         ↓
 
 Engineering Patterns
 
-↓
+         ↓
 
 DmV Software Products
 
-↓
+         ↓
 
 Commercial Distribution
+```
 
 ---
 
