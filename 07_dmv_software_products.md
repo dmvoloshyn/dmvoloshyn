@@ -22,6 +22,8 @@ System Architecture → Engineering Patterns → DmV Software Architecture Mappi
 
 # Products
 
+---
+
 ## Concrete Works Cost Estimator Pro
 
 A specialized engineering application designed for construction cost estimation workflows.
@@ -46,7 +48,7 @@ The system provides structured calculation methods for concrete-related projects
 
 ---
 
-# DmV Calculator PRO
+## DmV Calculator PRO
 
 A computational calculator system focused on advanced expression processing, engineering calculations, and unit-based operations.
 
@@ -67,6 +69,68 @@ The application demonstrates custom parsing logic and reusable computational pat
 ### User Documentation
 
 [DmV Calculator PRO Manual](https://dmvtools.gumroad.com/l/DmVCalculatorPROManual)
+
+---
+
+# Scientific & R&D Systems
+
+---
+
+## Marine Data Lab
+
+Marine Data Lab is a scientific desktop application for processing, analyzing, validating, and documenting oceanographic measurement data.
+
+The system combines:
+
+- Java/JavaFX application architecture;
+- native C++ scientific libraries through JNI;
+- JSON and GeoJSON processing;
+- persistent research data;
+- individual measurement analysis;
+- spatial-temporal dataset analysis;
+- automated quality assessment;
+- researcher notes and manual validation;
+- structured scientific reporting.
+
+The architecture demonstrates how external scientific computation and structured spatial data can be integrated into a high-level Java application while preserving separation between application logic, native computation, data processing, and presentation.
+
+### Video demonstration
+
+[MarineDataLab - YouTube](https://youtu.be/U7hxrHVB4qs)
+
+### User Documentation
+
+[MarineDataLab - Manual](https://github.com/dmvoloshyn/dmvoloshyn/blob/4b3e2ca17dcfb35d7d7901a497d812e6b58b3b4d/10_manual_marine_data_lab.pdf)
+
+---
+
+## NASA Enterprise Mission Control Agent
+
+NASA Enterprise Mission Control Agent is an independent multi-domain AI research system designed to orchestrate distributed NASA APIs through natural-language interaction.
+
+The system combines:
+
+- Java;
+- LangChain4j;
+- LLM reasoning;
+- deterministic application tools;
+- multi-step tool chaining;
+- REST API orchestration;
+- structured JSON processing;
+- live-data grounding;
+- API and model fallback;
+- controlled degradation;
+- deterministic evaluation of agent behavior.
+
+The architecture demonstrates how probabilistic AI reasoning can be integrated into a deterministic software system where external data retrieval, tool execution, failure handling, and evaluation remain under explicit application control.
+
+### Video demonstration
+
+[NASA AI Agent - YouTube](https://youtu.be/v_EfBnrCQ-s)
+
+### User Documentation
+
+[NASA AI Agent - repository](https://github.com/DmV-Software/nasa-enterprise-mission-control-agent)
 
 ---
 
