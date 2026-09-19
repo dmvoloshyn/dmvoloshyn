@@ -17,15 +17,20 @@ This pattern treats service failure as an expected architectural condition.
 ## 2. Failure Model
 
 Primary Dependency
+
        ↓
    Failure?
+
     ↙     ↘
   No       Yes
+
   ↓         ↓
 Continue   Fallback
+
              ↓
        Alternative API /
        Model / Credential
+
              ↓
        Controlled Result
 
