@@ -14,25 +14,33 @@ DmV Software represents the implementation stage where system concepts become re
 
 The overall development flow:
 
-Engineering Patterns  
-↓  
-Computational Logic  
-↓  
-Product Implementation  
-↓  
+``` text
+     Engineering Patterns  
+               ↓  
+      Computational Logic  
+               ↓  
+     Product Implementation  
+               ↓  
 Commercial Software Application
+```
 
 ---
 
 # Product Mapping
 
-## Concrete Works Cost Estimator Pro
+---
+
+# Concrete Works Cost Estimator Pro
 
 Concrete Works Cost Estimator Pro is a specialized engineering calculation system focused on construction cost estimation workflows.
 
 The application transforms domain-specific engineering requirements into a structured calculation environment.
 
-### Related Engineering Patterns
+---
+
+## Related Engineering Patterns
+
+---
 
 ## Expression Processing Pattern
 
@@ -47,7 +55,6 @@ Application:
 - calculation workflow execution
 - result generation
 
-
 ## Safe String Transformation Pattern
 
 Purpose:
@@ -59,7 +66,6 @@ Application:
 - unit handling
 - input normalization
 - safe preprocessing of calculation expressions
-
 
 ## Reactive User Interface Pattern
 
@@ -81,7 +87,11 @@ DmV Calculator PRO is a general engineering calculation environment based on exp
 
 The system focuses on flexible mathematical and engineering calculations through a compact user interaction model.
 
-### Related Engineering Patterns
+---
+
+## Related Engineering Patterns
+
+---
 
 ## Expression Parser Logic
 
@@ -94,7 +104,6 @@ Application:
 - formula evaluation
 - operator processing
 - calculation execution
-
 
 ## Unicode Arrow Conversion DSL Pattern
 
@@ -111,7 +120,6 @@ Application:
 - engineering conversions
 - compact user commands
 - human-readable calculation syntax
-
 
 ## Text-Based Structured Data Pattern
 
