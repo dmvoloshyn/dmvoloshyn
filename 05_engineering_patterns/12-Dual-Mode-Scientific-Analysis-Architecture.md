@@ -18,16 +18,16 @@ This pattern provides multiple analytical workflows over a shared scientific dat
 
 ## 2. Architectural Model
 
-              Persistent Research Data
-                         ↓
-           b Shared Data / Domain Model
-                    ↙         ↘
-                   ↓            ↓
+             Persistent Research Data
+                        ↓
+          b Shared Data / Domain Model
+                   ↙         ↘
+                  ↓            ↓
       Single Measurement   Spatial-Temporal
            Analysis            Analysis
-                   ↓            ↓
-                 Shared Calculation
-                 & Validation Logic
+                  ↓            ↓
+                Shared Calculation
+                & Validation Logic
 
 ---
 
