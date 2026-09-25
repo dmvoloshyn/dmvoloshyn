@@ -308,9 +308,9 @@ For example:
                     AI Agent
                        │
         ┌────────────┼────────────┐
-        ▼              ▼              ▼
+        ▼             ▼              ▼
     NASA APIs        RAG Tool     Calculations
-        │              │              │
+        │              │               │
         │          Retrieval           │
         │           failure            │
         │              X               │
