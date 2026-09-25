@@ -18,7 +18,7 @@ My current work combines Java, JavaFX, Android, scientific software, AI/LLM inte
 
 *   **Agent Architecture & Orchestration:** Design multi-domain AI agents combining LLM reasoning, deterministic tools, REST APIs, structured data, and application logic through multi-step agentic workflows and tool chaining.
 
-*   **Grounding & Resilience:** Implement live-data grounding, API fallback strategies, model/key rotation, failure handling, and controlled execution paths to improve reliability, traceability, and reduce hallucination risk.
+*   **Grounding & Resilience:** Implement RAG-based knowledge and live-data grounding, API fallback strategies, model/key rotation, failure handling, and controlled execution paths to improve reliability, traceability, and reduce the risk of hallucinations.
 
 *   **AI-Assisted Engineering:** Use LLM tools for architecture exploration, implementation, refactoring, debugging, documentation, algorithm optimization, and workflow acceleration while retaining full control over code, validation, and final system behavior.
 
