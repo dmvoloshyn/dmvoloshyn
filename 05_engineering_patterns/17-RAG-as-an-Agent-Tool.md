@@ -35,13 +35,13 @@ Instead of automatically applying RAG to every user request, expose the retrieva
 ```text
                     ┌─────────────────────┐
                     │      AI Agent           │
-                    │                       │
+                    │                         │
                     │ Tool selection          │
-                    │ Reasoning                │
-                    │ Workflow coordination  │
+                    │ Reasoning               │
+                    │ Workflow coordination   │
                     └──────────┬──────────┘
                                 │
-             ┌───────────────┼──────────────┐
+             ┌───────────────┼───────────────┐
              │                  │                 │
              ▼                 ▼                 ▼
       NASA API Tools      RAG Knowledge     Other Tools
