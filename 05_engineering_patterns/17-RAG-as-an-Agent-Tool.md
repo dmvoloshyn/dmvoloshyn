@@ -211,7 +211,7 @@ User Question
                            ▼
                     Technical Context
       │
-      └──────────────┬───────────────┘
+      └─────────────┬──────────────┘
                      ▼
               LLM Synthesis
                      │
