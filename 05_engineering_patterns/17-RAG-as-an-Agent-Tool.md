@@ -88,7 +88,9 @@ The vector store maintains the embedded document segments and makes it possible 
 
 In this implementation, Qdrant is used as the vector store.
 
-### Why make retrieval an agent tool?
+---
+
+## Why make retrieval an agent tool?
 
 A standalone RAG pipeline might look like:
 
@@ -159,8 +161,6 @@ The model does not need to know the implementation details of the vector databas
 
 The resulting architecture provides two complementary grounding mechanisms.
 
----
-
 ### Live-data grounding
 
 Live or date-specific information is retrieved directly from NASA APIs.
@@ -172,8 +172,6 @@ NASA API Tool
    ↓
 Current / historical NASA data
 ```
-
----
 
 ### Knowledge grounding
 
