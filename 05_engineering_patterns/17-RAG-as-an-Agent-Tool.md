@@ -307,14 +307,14 @@ For example:
 ```text
                     AI Agent
                        │
-        ┌─────────────┼─────────────┐
+        ┌────────────┼────────────┐
         ▼              ▼              ▼
     NASA APIs        RAG Tool     Calculations
         │              │              │
         │          Retrieval           │
         │           failure            │
         │              X               │
-        └──────────────┼──────────────┘
+        └────────────┼────────────┘
                        ▼
               Continue with
              available tools
