@@ -1,5 +1,7 @@
 # RAG as an Agent Tool: Knowledge Grounding with Vector Search
 
+---
+
 RAG (Retrieval-Augmented Generation) is often implemented as a separate semantic-search layer placed in front of an LLM.
 
 For an AI agent, a more useful architecture is to expose knowledge retrieval as an agent tool.
@@ -40,10 +42,10 @@ Instead of automatically applying RAG to every user request, expose the retrieva
                     └──────────┬──────────┘
                                │
              ┌─────────────────┼─────────────────┐
-             │                 │                 │
+             │                  │                 │
              ▼                 ▼                 ▼
       NASA API Tools      RAG Knowledge     Other Tools
-             │                 │
+             │                  │
              ▼                 ▼
         Live Data       Technical / Mission
                          Documentation
@@ -51,7 +53,9 @@ Instead of automatically applying RAG to every user request, expose the retrieva
 
 The important architectural decision is that RAG is a capability available to the agent, not a mandatory preprocessing step for every query.
 
-### RAG pipeline
+---
+
+## RAG pipeline
 
 The knowledge layer follows a conventional retrieval pipeline:
 
@@ -62,13 +66,13 @@ NASA Documentation
 Document Ingestion
        │
        ▼
-Chunking
+   Chunking
        │
        ▼
-Embeddings
+  Embeddings
        │
        ▼
-Vector Store
+ Vector Store
        │
        ▼
 Semantic Retrieval
@@ -77,7 +81,7 @@ Semantic Retrieval
 searchNasaKnowledge()
        │
        ▼
-AI Agent
+   AI Agent
 ```
 
 The vector store maintains the embedded document segments and makes it possible to retrieve semantically relevant content for a user query.
@@ -95,9 +99,9 @@ Retriever
     ↓
 Relevant Documents
     ↓
-LLM
+   LLM
     ↓
-Answer
+  Answer
 ```
 
 An agent-based architecture provides another level of control:
@@ -125,7 +129,9 @@ The agent can determine whether the question requires:
 
 This is particularly useful for multi-domain research workflows where the final answer may require both retrieved observations and supporting technical knowledge.
 
-### Tool-based RAG
+---
+
+## Tool-based RAG
 
 The retrieval capability is exposed through a LangChain4j tool:
 
@@ -147,11 +153,15 @@ The tool therefore becomes part of the same tool-selection mechanism used by the
 
 The model does not need to know the implementation details of the vector database. It only needs to understand what the tool provides and when it should be used.
 
-### Two grounding paths
+---
+
+## Two grounding paths
 
 The resulting architecture provides two complementary grounding mechanisms.
 
-#### Live-data grounding
+---
+
+### Live-data grounding
 
 Live or date-specific information is retrieved directly from NASA APIs.
 
@@ -163,7 +173,9 @@ NASA API Tool
 Current / historical NASA data
 ```
 
-#### Knowledge grounding
+---
+
+### Knowledge grounding
 
 Technical and mission context is retrieved from the RAG knowledge layer.
 
@@ -214,7 +226,9 @@ This creates a separation between:
 - what the data means or how the system is documented — retrieved knowledge;
 - how the information is combined into an answer — agent reasoning and synthesis.
 
-### Vector search is not reasoning
+---
+
+## Vector search is not reasoning
 
 A vector database solves a retrieval problem.
 It does not solve the reasoning problem.
@@ -238,7 +252,9 @@ AI Agent
      └── Decides how that knowledge is used
 ```
 
-### Resource lifecycle matters
+---
+
+## Resource lifecycle matters
 
 RAG components may own resources that should not be initialized unnecessarily.
 
@@ -261,7 +277,9 @@ if (nasaKnowledgeRetrieval == null) {
 This is a small implementation detail with an important architectural consequence.
 The agent can expose many capabilities without requiring every external resource to be initialized during startup.
 
-### Resource ownership and agent lifecycle
+---
+
+## Resource ownership and agent lifecycle
 
 The general pattern is:
 
@@ -279,7 +297,9 @@ Agent startup
 This separates tool availability from resource initialization.
 The distinction becomes especially important when a tool depends on an external service such as a vector database.
 
-### Failure boundaries
+---
+
+## Failure boundaries
 
 RAG should also have a clear failure boundary.
 A failure in the knowledge retrieval layer should not automatically invalidate unrelated agent capabilities.
@@ -304,7 +324,9 @@ For example:
 
 This is consistent with the broader principle of treating external integrations as explicit failure boundaries rather than allowing one dependency to control the lifecycle of the entire application.
 
-### Grounding is not the same as truth
+---
+
+## Grounding is not the same as truth
 
 RAG reduces dependence on the model's internal knowledge, but retrieval alone does not guarantee factual correctness.
 
@@ -319,7 +341,9 @@ Therefore, RAG should be considered a grounding mechanism, not a guarantee of co
 
 For an agent system, trajectory and tool-use information can be just as important as the final generated text when validating whether an answer was actually grounded.
 
-### Engineering pattern
+---
+
+## Engineering pattern
 
 The general pattern can be summarized as:
 
@@ -349,7 +373,9 @@ This produces a modular architecture in which:
 The key idea is not simply adding a vector database to an LLM application.
 The key idea is treating knowledge retrieval as one of the agent's capabilities, alongside live-data access, computation, and other domain-specific tools.
 
-### Implementation lessons
+---
+
+## Implementation lessons
 
 Several practical lessons emerge from this pattern:
 
@@ -361,7 +387,9 @@ Several practical lessons emerge from this pattern:
 - **Record tool execution when traceability matters.** Knowing that the agent actually invoked the knowledge tool is valuable when evaluating grounded behavior.
 - **Combine knowledge grounding with live-data grounding** when the domain requires both context and current observations.
 
-### Pattern summary
+---
+
+## Pattern summary
 
 RAG + Agent Tooling + Live Data provides a useful architecture for research-oriented AI systems.
 
