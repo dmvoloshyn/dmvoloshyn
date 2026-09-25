@@ -352,15 +352,15 @@ This produces a modular architecture in which:
 ```text
                  AI AGENT
                     │
-       ┌────────────┼────────────┐
+       ┌──────────┼──────────┐
        │            │            │
-       ▼            ▼            ▼
+       ▼           ▼            ▼
    Live APIs       RAG        Calculations
        │            │            │
-       ▼            ▼            ▼
+       ▼           ▼            ▼
    Live Data    Knowledge    Derived Data
        │            │            │
-       └────────────┼────────────┘
+       └──────────┼──────────┘
                     ▼
               Agent Synthesis
                     │
